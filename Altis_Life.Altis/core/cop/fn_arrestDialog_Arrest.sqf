@@ -7,9 +7,9 @@ if(isNil "life_pInact_curTarget") exitWith {hint "Falsches Ziel."};
 
 //Get minutes
 _time = ctrlText 1400;
-if(! ([_time] call TON_fnc_isnumber)) exitWith{	hint "Du musst eine Zahl eingeben.";};
+if(! ([_time] call TON_fnc_isnumber)) exitWith{	hint "Musisz wprowadzić czas.";};
 _time = parseNumber _time; //requested number
 _time = round _time;
-if(_time < 1 || _time > 90) exitWith { hint hint "Du kannst die Zeit zwischen 1-90 minuten einstellen!"; };
+if(_time < 1 || _time > 90) exitWith { hint hint "Można ustawić czas między 1-90 minut!"; };
 closeDialog 0;
  [life_pInact_curTarget, _time] call life_fnc_arrestAction;

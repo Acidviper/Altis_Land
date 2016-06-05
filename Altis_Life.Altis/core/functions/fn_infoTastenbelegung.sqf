@@ -2,48 +2,48 @@
 
 _text = 
 "<t size='2'>
-Extratasten</t><br/>
+Klawiszologia</t><br/>
 <br/>
-<t size='1'>Windowstaste: <br/>
- Hauptinteraktionstaste<br/>
+<t size='1'>Windows: <br/>
+ Główny przycisk interakcji<br/>
  Rohstoff-Sammel-Taste<br/>
  <br/>
  F1-F4<br/> 
- Hilfetasten<br/>
+ Klawisze pomocy<br/>
  <br/> 
  Shift + Ü<br/> 
- Lizenzen zeigen<br/> 
+ Pokaż licencje<br/> 
  <br/>
  Z/I<br/>
- Öffnen des Spielermenüs<br/>
+ Otwieranie menu<br/>
  <br/>
  T <br/>
- Fahrzeugkofferraum<br/>
+ Bagażnik pojazdu<br/>
  <br/>
  U<br/>
- Öffnen/Abschliessen von Fahrzeugen<br/>
+ Otwieranie / zamykanie pojazdów<br/>
  <br/>
  Links Shift + B<br/>
- Ergeben<br/>
+ Wydajność<br/>
  <br/>
  Links Shift + R <br/>
- Niederschlagen<br/>
- Festnehmen<br/>
+ Powalanie<br/>
+ Policja skuwanie<br/>
  <br/>
  Links Shift + L<br/>
- Einsatzlicht (als Polizist und MTD)<br/>
+ Światła policja, medycy<br/>
  <br/>
  Shift + F / X<br/>
- Sirene / Anhaltesignal (als Polizist)<br/>
+ Syreny policyjne<br/>
  <br/>
  Links Shift +  V / C <br/>
- Stop Fahrzeug / Stop Person (als Polizist)<br/>
+ Zatrzymanie pojazdu / Stop osoba (jako policjant)<br/>
  <br/>
  O<br/>
- Schranke Öffnen<br/>
+ Otwieranie bariery<br/>
  <br/>
  Shift + Ä<br/>
- Mobile Banking (als Polizist)<br/>
+ Bankowość mobilna (jako policjant)<br/>
  </t>";
 
 hint parseText _text;

@@ -44,7 +44,7 @@ sleep 1; //Wait for the fade.
 sleep 0.25;
 
 [
-	"<t size='1.3' color='#cc181e'>Altisland Best</t><br/>Cieszymy się wkrótce na przyjęcie!<br/><br/><br/><t size='1.1'>www.altisland.pl</t>",
+	"<t size='1.3' color='#cc181e'>Altisland Best</t><br/>Mamy nadzieje że jeszcze nas odwiedzisz!<br/><br/><br/><t size='1.1'>www.altisland.pl</t>",
 	0,
 	0.2,
 	10,

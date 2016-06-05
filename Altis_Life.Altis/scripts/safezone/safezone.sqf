@@ -38,7 +38,7 @@ switch (playerSide) do
 				{     
 					//_eh1 = player addEventHandler ["fired", {deleteVehicle (_this select 6);}];
 					_inArea = true;
-					hint parseText format["<t color='#FF0000'><t size='2'><t align='center'>Warnung Safezone<br/><br/><t align='center'><t size='1'><t color='#ffffff'>%1",_enterText];
+					hint parseText format["<t color='#FF0000'><t size='2'><t align='center'>Uwaga Safezone<br/><br/><t align='center'><t size='1'><t color='#ffffff'>%1",_enterText];
 					player allowDamage false;
 					safezone = true;
 				};
@@ -46,7 +46,7 @@ switch (playerSide) do
 				{    
 					//player removeEventHandler ["fired", _eh1];
 					_inArea = false;
-					hint parseText format["<t color='#FF0000'><t size='2'><t align='center'>Warnung Safezone<br/><br/><t align='center'><t size='1'><t color='#ffffff'>%1",_leaveText];
+					hint parseText format["<t color='#FF0000'><t size='2'><t align='center'>Uwaga Safezone<br/><br/><t align='center'><t size='1'><t color='#ffffff'>%1",_leaveText];
 					player allowDamage true;
 					safezone = false;
 				};
@@ -65,7 +65,7 @@ switch (playerSide) do
 				{     
 					_eh1 = player addEventHandler ["fired", {deleteVehicle (_this select 6);}];
 					_inArea = true;
-					hint parseText format["<t color='#FF0000'><t size='2'><t align='center'>Warnung Safezone<br/><br/><t align='center'><t size='1'><t color='#ffffff'>%1",_enterText];
+					hint parseText format["<t color='#FF0000'><t size='2'><t align='center'>Uwaga Safezone<br/><br/><t align='center'><t size='1'><t color='#ffffff'>%1",_enterText];
 					player allowDamage false;
 					safezone = true;
 				};
@@ -73,7 +73,7 @@ switch (playerSide) do
 				{    
 					player removeEventHandler ["fired", _eh1];
 					_inArea = false;
-					hint parseText format["<t color='#FF0000'><t size='2'><t align='center'>Warnung Safezone<br/><br/><t align='center'><t size='1'><t color='#ffffff'>%1",_leaveText];
+					hint parseText format["<t color='#FF0000'><t size='2'><t align='center'>Uwaga Safezone<br/><br/><t align='center'><t size='1'><t color='#ffffff'>%1",_leaveText];
 					player allowDamage true;
 					safezone = false;
 				};

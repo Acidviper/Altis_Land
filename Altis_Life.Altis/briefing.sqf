@@ -90,7 +90,7 @@ player createDiaryRecord ["rules",
 		"Serverregeln",
 "
 <br/>
-<font color='#af4545'>Serverregeln</font><br/><br/>
+<font color='#af4545'>Zasady Serwera</font><br/><br/>
 Alle Serverregeln findet ihr auf unserer Webseite www.altisland.pl, bitte informiert euch regelmäßig über Änderungen!
 <br/>
 "

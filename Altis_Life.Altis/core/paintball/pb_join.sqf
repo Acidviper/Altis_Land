@@ -6,5 +6,5 @@ hint "Żądanie zdarzenie zostało wysłane do serwera, należy odczekać chwil�
 [_PUID,_spielerGeld] remoteExec ["TON_fnc_paintball",RSERV];
 joinmode = 1;
 } else {
-hint "spróbuj ponownie w innym czasie!";
+hint "Spróbuj ponownie w innym czasie!";
 };

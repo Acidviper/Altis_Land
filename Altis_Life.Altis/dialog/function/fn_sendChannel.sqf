@@ -13,9 +13,9 @@ disableSerialization;
 
 waitUntil {!isnull (findDisplay 9000)};
 
-if (CASH < 100000 && playerSide == civilian) exitWith { systemChat "Du brauchst 100.000€ um eine Nachricht zu schicken!"; };
+if (CASH < 100000 && playerSide == civilian) exitWith { systemChat "Trzeba € 100.000, aby wysłać wiadomość!"; };
 if (!(playerSide in [civilian, east]) ) exitWith { systemChat "Du musst Zivilist sein!"; };
-if (life_channel_send) exitWith { systemChat "Warte 10 Minuten bevor du einen neue Nachricht sendest!"; };
+if (life_channel_send) exitWith { systemChat "Odczekaj 10 minut przed wysłaniem nowej wiadomości!"; };
 
 if (playerSide == civilian) then {
 	SUB(CASH, 100000);

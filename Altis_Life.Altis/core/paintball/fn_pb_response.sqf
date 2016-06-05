@@ -43,7 +43,7 @@ _maxGeld = 100;
 _grenzeAusz = 30;
 _geldTod = _maxGeld/_grenzeAusz;
 _punkte = _grenzeAusz-tode;
-hintSilent parseText format ["<t align='center' color='#00E500' size='1.3'>Statistik</t><br/><br/><t align='left'>Tode</t><t align='right'>%1</t><br/><t align='left'>Punkte</t><t align='right'>%2</t>",tode,_punkte];
+hintSilent parseText format ["<t align='center' color='#00E500' size='1.3'>Statystyki</t><br/><br/><t align='left'>Zgon</t><t align='right'>%1</t><br/><t align='left'>Punkty</t><t align='right'>%2</t>",tode,_punkte];
 }];
 };
 if (_respondmode==3) then {
@@ -56,7 +56,7 @@ player addEventHandler["handleDamage",{_this call life_fnc_handleDamage;}];
 player enableFatigue true;
 _grenzeAusz = 30;
 if (tode>=_grenzeAusz) then {
-hint "Das Paintball Event wurde beendet. Leider hast du nicht genuegend Punkte erspielt, um einen Geldpreis zu erhalten!";
+hint "Paintball Event zakończył się. Niestety, zarobiłeś masz za mało punktów, aby otrzymać nagrodę pieniężną!";
 } else {
 _maxGeld = 100;
 _geldTod = _maxGeld/_grenzeAusz;

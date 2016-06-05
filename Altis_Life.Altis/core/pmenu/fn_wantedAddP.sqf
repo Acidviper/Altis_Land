@@ -7,8 +7,8 @@
 	
 */
 private["_unit","_amount"];
-if((lbCurSel 2406) == -1) exitWith {hint "Du musst ein Spieler auswählen."};
-if((lbCurSel 2407) == -1) exitWith {hint "Du musst eine Delikt auswählen."};
+if((lbCurSel 2406) == -1) exitWith {hint "Musisz wybrać gracza."};
+if((lbCurSel 2407) == -1) exitWith {hint "Musisz wybrać przestępstwo."};
 _unit = lbData [2406,lbCurSel 2406];
 _unit = call compile format["%1",_unit];
 _amount = lbData [2407,lbCurSel 2407];

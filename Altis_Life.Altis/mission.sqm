@@ -343,7 +343,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_1";
-					description="Bewohner 1";
+					description="CIV 1";
 				};
 			};
 		};

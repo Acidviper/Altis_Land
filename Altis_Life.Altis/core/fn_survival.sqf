@@ -70,9 +70,9 @@ _fnc_water = {
         sleep 1;
 		if ((player distance (getMarkerPos "Radioactive_Marker")) < 250) then {
 			if(uniform player == "U_C_Scientist" || (playerSide == west) || (playerSide == independent)) then {
-				 hint "!!! Du betrittst die Radioaktive Sperrzone !!! Aber dein Schutzanzug schützt dich";
+				 hint "!!! Strefa Radioaktywna !!! Strefa zamknięta Ale twój kombinezon ochronny chroni";
 			} else {
-				 hint "!!! ACHTUNG RADIOAKTIVE ZONE !!! DU WIRST STERBEN, WENN DU KEINEN SCHUTZANZUG AN HAST";
+				 hint "!!! UWAGA RADIOAKTYWNA STREFA !!!";
 			};
 			
 			while {(player distance (getMarkerPos "Radioactive_Marker")) < 250} do {
@@ -93,7 +93,7 @@ _fnc_water = {
         if(life_inv_uranium_ore != 0) then {
             player forceWalk true;
             player setFatigue 1;
-            hint "Du transportierst Uran, welches sehr schwer ist, deswegen bewegst du dich langsamer!";
+            hint "Podczas transportu uranu, co jest bardzo trudne, więc trzeba poruszać się wolniej!";
         } else {
             if(isForcedWalk player) then {
                 player forceWalk false;

@@ -41,7 +41,7 @@ class CfgSpawnPoints {
         };
 
         class RebelS {
-            displayName = "Rebellen Aussenposten Nord";
+            displayName = "Rebelia Północ";
             spawnMarker = "Rebelop_3";
             icon = "";
             license = "rebel";
@@ -49,7 +49,7 @@ class CfgSpawnPoints {
         };
 
         class RebelE {
-            displayName = "Eastern Rebelen Aussenposten";
+            displayName = "Wschodnia Rebelka";
             spawnMarker = "Rebelop_2";
             icon = "";
             license = "rebel";
@@ -57,7 +57,7 @@ class CfgSpawnPoints {
         };
 		
         class Rebellenlagerg {
-            displayName = "Rebellenlager Island of Liberty";
+            displayName = "Obóz Rebeliantów AltisLand";
             spawnMarker = "reb_spawn";
             icon = "";
             license = "rebel";
@@ -65,7 +65,7 @@ class CfgSpawnPoints {
         };
 		
 		class Lmo {
-            displayName = "LMO Gangversteck";
+            displayName = "LMO Kryjówka gangu";
             spawnMarker = "lmo_spawn";
             icon = "";
             license = "lmo";
@@ -108,7 +108,7 @@ class CfgSpawnPoints {
         };
 		
 		class Grenze {
-            displayName = "Polizei Grenze";
+            displayName = "Straż Graniczna";
             spawnMarker = "cop_spawn_6";
             icon = "";
             license = "";
@@ -116,7 +116,7 @@ class CfgSpawnPoints {
         };
 
         class HW {
-            displayName = "Autobahnpolizei";
+            displayName = "A2";
             spawnMarker = "cop_spawn_5_1";
             icon = "";
             license = "";
@@ -124,7 +124,7 @@ class CfgSpawnPoints {
         };
 		
 		class training {
-            displayName = "Grundausbildung";
+            displayName = "Obóz Szkoleniowy";
             spawnMarker = "cop_training";
             icon = "";
             license = "";
@@ -132,7 +132,7 @@ class CfgSpawnPoints {
         };
 		
 		class traininggelaende {
-            displayName = "Trainingsgelände";
+            displayName = "Poligon";
             spawnMarker = "spawn_cop1";
             icon = "";
             license = "";
@@ -142,7 +142,7 @@ class CfgSpawnPoints {
 
     class Medic {
         class Kavala {
-            displayName = "MTD Medizinisch Kavala";
+            displayName = "MED Kavala";
             spawnMarker = "medic_spawn_1";
             icon = "";
             license = "";
@@ -150,7 +150,7 @@ class CfgSpawnPoints {
         };
 		
 		class Kavallamtd {
-            displayName = "MTD Teschnik Kavala";
+            displayName = "Teschnik Kavala";
             spawnMarker = "medic_spawn_6";
             icon = "";
             license = "";
@@ -158,7 +158,7 @@ class CfgSpawnPoints {
         };
 
         class Athira {
-            displayName = "MTD Medizinisch Athira";
+            displayName = "MED Athira";
             spawnMarker = "medic_spawn_2";
             icon = "";
             license = "";
@@ -166,7 +166,7 @@ class CfgSpawnPoints {
         };
 		
 		class Athiramtd {
-            displayName = "MTD Teschnik Athira";
+            displayName = "Teschnik Athira";
             spawnMarker = "mtd_spawn2";
             icon = "";
             license = "";
@@ -174,7 +174,7 @@ class CfgSpawnPoints {
         };
 
         class Pyrgos {
-            displayName = "MTD Medizinisch Pyrgos";
+            displayName = "MED Pyrgos";
             spawnMarker = "medic_spawn_3";
             icon = "";
             license = "";
@@ -183,7 +183,7 @@ class CfgSpawnPoints {
 		
 		
 		class pyrgosmtd {
-            displayName = "MTD Teschnik Pyrgos";
+            displayName = "Teschnik Pyrgos";
             spawnMarker = "mtd_spawn3";
             icon = "";
             license = "";
@@ -191,7 +191,7 @@ class CfgSpawnPoints {
         };
 
 		class sofiamedic {
-            displayName = "MTD Medizinisch Sofia";
+            displayName = "MED Sofia";
             spawnMarker = "medic_spawn_4";
             icon = "";
             license = "";
@@ -199,7 +199,7 @@ class CfgSpawnPoints {
         };
 		
 		class sofiamtd {
-            displayName = "MTD Teschnik Sofia";
+            displayName = "Teschnik Sofia";
             spawnMarker = "mtd_spawn4";
             icon = "";
             license = "";

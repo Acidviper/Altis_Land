@@ -14,7 +14,7 @@ switch (life_adminwarning) do
 	};
 	case 1:
 	{
-		hint "Finden Sie sich sofort auf Teamspeak3 ein. IP: ts.island-of-liberty.com. Betreten Sie dort den Channel 'Warte Support Altis Life'. Dies ist Ihre letzte Warnung.";
+		hint "Finden Sie sich sofort auf Teamspeak3 ein. IP: ts3.altisland.pl. Betreten Sie dort den Channel 'Warte Support Altis Life'. Dies ist Ihre letzte Warnung.";
 		titleText ["Finden Sie sich sofort auf Teamspeak3 ein.\nIP: ts3.altisland.pl.\nBetreten Sie dort den Channel 'Warte Support Altis Life'.\nDies ist Ihre letzte Warnung.", "PLAIN"];
 		life_adminwarning = life_adminwarning + 1;
 	};

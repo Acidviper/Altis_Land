@@ -57,7 +57,7 @@ class CfgSpawnPoints {
         };
 		
         class Rebellenlagerg {
-            displayName = "Obóz Rebeliantów AltisLand";
+            displayName = "Obóz Rebeli AltisLand";
             spawnMarker = "reb_spawn";
             icon = "";
             license = "rebel";

@@ -31,7 +31,7 @@ class agb
  {
  colorBackground[] = {0, 0, 0, 0};
  idc = -1;
- text = "Die Serverregeln in kurzer form von Island of Liberty:";
+ text = "Zasady serwera Altisland Best:";
  x = 0.0875;
  y = 0.06;
  w = 0.825;
@@ -47,7 +47,7 @@ class agb
  idc = -1;
  colorBackground[] = {0, 0, 0, 0};
  sizeEx = 0.0001;
- text = "<t size = '0.8'>Unerwuenschtes Fehlverhalten fuehrt ggf. zu Bann<br / >§1: Hacking / Cheating / Duping / Belleidigungen<br / >§1.1: Selbstmord / Disconect um sich dem Rollenspiel zu entziehen.<br / >§1.2: Bugs/Exploites ausnutzen - im Zweifel Admin fragen<br / ><br / >§2: RP wird bei uns Gross geschrieben. Haellst du dich nicht an das RP, hast du hier nix verloren!<br / ><br / >§3: RDM / VDM wird sofort geahndet und die Taeter gebannt.<br / ><br / >Unsere Kontaktdaten: <br / >TS³ ts.island-of-liberty.com<br / >Homepage www.Island-of-Liberty.com<br / >Altis Life Team: <br / >Cris, Toxicality, Anonymous, Tim Taylor, Jack Brown <br / ><br / >Hinweis: Wir suchen Mitarbeiter der MTD und Polizisten sowie verstaerkung bei unserem Support Team. Bewerbungen im Forum.<br / ></t> <t font ='PuristaBold' size='0.9'>Um auf dem Island of Liberty Server zu spielen musst du diesen Regeln zustimmen und verpflichtest dich dazu diese einzuhalten und hast auch die Regeln im Forum gelesen und verstanden.</t>";
+ text = "<t size = '0.8'>Zasady podstawowe serwera <br /> §1: /> §1.1 Hacking / Oszukiwanie / duping / Belleidigungen <br: aby unikn¹æ samobójstwo / WY£¥CZYÆ do RPG /> <br §1.2: wykorzystaæ b³êdy / Exploites -. w razie w¹tpliwoœci zapytaæ Admin <br /> <br /> §2: RP jest dla nas priorytetem du¿y. Haellst prawda w RP, masz tu straci³ nic <br /> <br /> §3. RDM / VDM bêdzie karane i zakaza³a <br /> <br /> sprawca Kontakt <br / > TSL ts3.altisland.pl <br /> <br g³ówna www.altisland.pl /> Altis Life: <br /> Admin Acid <br /> <br /> Uwaga: Jesteœmy wynajêcie MTD i policji oraz wzmocnienie naszego zespo³u pomocy technicznej. Aplikacje na forum. <br /> </ T> <t font = 'PuristaBold "size =" 0.9 "> Aby graæ na Altisland Best musisz zgodziæ siê z tymi zasadami i zgadzaj¹ siê niezgodne z nimi i maj¹ przepisy Przeczyta³em na forum i rozumieæ </ t> ";
  x = 0.1125;
  y = 0.16;
  w = 0.775;
@@ -60,7 +60,7 @@ class agb
  class naz : Life_RscButtonMenu
  {
  idc = -1;
- text = "Nicht Akzeptieren";
+ text = "Nie Akceptuje";
  colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
  onButtonClick = "closeDialog 0;";
  x = 0.1075;
@@ -77,7 +77,7 @@ class agb
  class az : Life_RscButtonMenu
  {
  idc = -1;
- text = "Akzeptieren";
+ text = "Akceptuje";
  colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
  onButtonClick = "rulesok = true; closeDialog 0;";
  x = 0.5825;

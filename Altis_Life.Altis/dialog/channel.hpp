@@ -40,7 +40,7 @@ h = (1 / 25);
 class Channel7NewsEditText : Life_RscStructuredText
 {
 idc = -1;
-text = "Nachricht:"; //--- ToDo: Localize;
+text = "Wiadomość:"; //--- ToDo: Localize;
 x = 0.1;
 y = 0.28;
 w = 0.2;
@@ -61,7 +61,7 @@ h = 0.04;
 class Channel7Description : Life_RscStructuredText
 {
 idc = -1;
-text = "Diese News erhealt jeder Spieler! Bitte achte darauf was du schreibst."; //--- ToDo: Localize;
+text = "Tą informacje widzi każdy gracz! Należy upewnić się, co piszesz."; //--- ToDo: Localize;
 x = 0.15;
 y = 0.34;
 w = 0.5;

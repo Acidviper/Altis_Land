@@ -426,7 +426,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_5";
-					description="Bewohner 5";
+					description="CIV 5";
 				};
 			};
 		};
@@ -448,7 +448,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_6";
-					description="Bewohner 6";
+					description="CIV 6";
 				};
 			};
 		};
@@ -470,7 +470,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_7";
-					description="Bewohner 7";
+					description="CIV 7";
 				};
 			};
 		};
@@ -492,7 +492,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_8";
-					description="Bewohner 8";
+					description="CIV 8";
 				};
 			};
 		};
@@ -514,7 +514,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_9";
-					description="Bewohner 9";
+					description="CIV 9";
 				};
 			};
 		};
@@ -536,7 +536,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_10";
-					description="Bewohner 10";
+					description="CIV 10";
 				};
 			};
 		};
@@ -558,7 +558,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_11";
-					description="Bewohner 11";
+					description="CIV 11";
 				};
 			};
 		};
@@ -580,7 +580,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_12";
-					description="Bewohner 12";
+					description="CIV 12";
 				};
 			};
 		};
@@ -602,7 +602,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_13";
-					description="Bewohner 13";
+					description="CIV 13";
 				};
 			};
 		};
@@ -624,7 +624,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_14";
-					description="Bewohner 14";
+					description="CIV 14";
 				};
 			};
 		};
@@ -646,7 +646,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_15";
-					description="Bewohner 15";
+					description="CIV 15";
 				};
 			};
 		};
@@ -668,7 +668,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_16";
-					description="Bewohner 16";
+					description="CIV 16";
 				};
 			};
 		};
@@ -690,7 +690,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_17";
-					description="Bewohner 17";
+					description="CIV 17";
 				};
 			};
 		};
@@ -712,7 +712,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_18";
-					description="Bewohner 18";
+					description="CIV 18";
 				};
 			};
 		};
@@ -734,7 +734,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_19";
-					description="Bewohner 19";
+					description="CIV 19";
 				};
 			};
 		};
@@ -756,7 +756,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_20";
-					description="Bewohner 20";
+					description="CIV 20";
 				};
 			};
 		};
@@ -778,7 +778,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_21";
-					description="Bewohner 21";
+					description="CIV 21";
 				};
 			};
 		};
@@ -800,7 +800,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_22";
-					description="Bewohner 22";
+					description="CIV 22";
 				};
 			};
 		};
@@ -822,7 +822,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_23";
-					description="Bewohner 23";
+					description="CIV 23";
 				};
 			};
 		};
@@ -844,7 +844,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_24";
-					description="Bewohner 24";
+					description="CIV 24";
 				};
 			};
 		};
@@ -866,7 +866,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_25";
-					description="Bewohner 25";
+					description="CIV 25";
 				};
 			};
 		};
@@ -888,7 +888,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_26";
-					description="Bewohner 26";
+					description="CIV 26";
 				};
 			};
 		};
@@ -910,7 +910,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_27";
-					description="Bewohner 27";
+					description="CIV 27";
 				};
 			};
 		};
@@ -932,7 +932,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_28";
-					description="Bewohner 28";
+					description="CIV 28";
 				};
 			};
 		};
@@ -954,7 +954,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_29";
-					description="Bewohner 29";
+					description="CIV 29";
 				};
 			};
 		};
@@ -976,7 +976,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_30";
-					description="Bewohner 30";
+					description="CIV 30";
 				};
 			};
 		};
@@ -998,7 +998,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_31";
-					description="Bewohner 31";
+					description="CIV 31";
 				};
 			};
 		};
@@ -1020,7 +1020,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_32";
-					description="Bewohner 32";
+					description="CIV 32";
 				};
 			};
 		};
@@ -1042,7 +1042,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_33";
-					description="Bewohner 33";
+					description="CIV 33";
 				};
 			};
 		};
@@ -1064,7 +1064,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_34";
-					description="Bewohner 34";
+					description="CIV 34";
 				};
 			};
 		};
@@ -1086,7 +1086,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_35";
-					description="Bewohner 35";
+					description="CIV 35";
 				};
 			};
 		};
@@ -1108,7 +1108,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_36";
-					description="Bewohner 36";
+					description="CIV 36";
 				};
 			};
 		};
@@ -1130,7 +1130,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_37";
-					description="Bewohner 37";
+					description="CIV 37";
 				};
 			};
 		};
@@ -1152,7 +1152,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_38";
-					description="Bewohner 38";
+					description="CIV 38";
 				};
 			};
 		};
@@ -1174,7 +1174,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_39";
-					description="Bewohner 39";
+					description="CIV 39";
 				};
 			};
 		};
@@ -1196,7 +1196,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_40";
-					description="Bewohner 40";
+					description="CIV 40";
 				};
 			};
 		};
@@ -1218,7 +1218,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_41";
-					description="Bewohner 41";
+					description="CIV 41";
 				};
 			};
 		};
@@ -1240,7 +1240,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_42";
-					description="Bewohner 42";
+					description="CIV 42";
 				};
 			};
 		};
@@ -1262,7 +1262,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_43";
-					description="Bewohner 43";
+					description="CIV 43";
 				};
 			};
 		};
@@ -1284,7 +1284,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_44";
-					description="Bewohner 44";
+					description="CIV 44";
 				};
 			};
 		};
@@ -1306,7 +1306,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_45";
-					description="Bewohner 45";
+					description="CIV 45";
 				};
 			};
 		};
@@ -1328,7 +1328,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_46";
-					description="Bewohner 46";
+					description="CIV 46";
 				};
 			};
 		};
@@ -1350,7 +1350,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_47";
-					description="Bewohner 47";
+					description="CIV 47";
 				};
 			};
 		};
@@ -1372,7 +1372,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_48";
-					description="Bewohner 48";
+					description="CIV 48";
 				};
 			};
 		};
@@ -1394,7 +1394,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_49";
-					description="Bewohner 49";
+					description="CIV 49";
 				};
 			};
 		};
@@ -1416,7 +1416,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_50";
-					description="Bewohner 50";
+					description="CIV 50";
 				};
 			};
 		};
@@ -1438,7 +1438,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_51";
-					description="Bewohner 51";
+					description="CIV 51";
 				};
 			};
 		};
@@ -1460,7 +1460,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_52";
-					description="Bewohner 52";
+					description="CIV 52";
 				};
 			};
 		};
@@ -1482,7 +1482,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_53";
-					description="Bewohner 53";
+					description="CIV 53";
 				};
 			};
 		};
@@ -1504,7 +1504,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_54";
-					description="Bewohner 54";
+					description="CIV 54";
 				};
 			};
 		};
@@ -1526,7 +1526,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_55";
-					description="Bewohner 55";
+					description="CIV 55";
 				};
 			};
 		};
@@ -1548,7 +1548,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_56";
-					description="Bewohner 56";
+					description="CIV 56";
 				};
 			};
 		};
@@ -1570,7 +1570,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_57";
-					description="Bewohner 57";
+					description="CIV 57";
 				};
 			};
 		};
@@ -1592,7 +1592,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_58";
-					description="Bewohner 58";
+					description="CIV 58";
 				};
 			};
 		};
@@ -1614,7 +1614,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_59";
-					description="Bewohner 59";
+					description="CIV 59";
 				};
 			};
 		};
@@ -1636,7 +1636,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_60";
-					description="Bewohner 60";
+					description="CIV 60";
 				};
 			};
 		};
@@ -1658,7 +1658,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_61";
-					description="Bewohner 61";
+					description="CIV 61";
 				};
 			};
 		};
@@ -1680,7 +1680,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_62";
-					description="Bewohner 62";
+					description="CIV 62";
 				};
 			};
 		};
@@ -1702,7 +1702,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_63";
-					description="Bewohner 63";
+					description="CIV 63";
 				};
 			};
 		};
@@ -1724,7 +1724,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_64";
-					description="Bewohner 64";
+					description="CIV 64";
 				};
 			};
 		};
@@ -1746,7 +1746,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_65";
-					description="Bewohner 65";
+					description="CIV 65";
 				};
 			};
 		};
@@ -1768,7 +1768,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_66";
-					description="Bewohner 66";
+					description="CIV 66";
 				};
 			};
 		};
@@ -1790,7 +1790,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_67";
-					description="Bewohner 67";
+					description="CIV 67";
 				};
 			};
 		};
@@ -1812,7 +1812,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_68";
-					description="Bewohner 68";
+					description="CIV 68";
 				};
 			};
 		};
@@ -1834,7 +1834,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_69";
-					description="Bewohner 69";
+					description="CIV 69";
 				};
 			};
 		};
@@ -1856,7 +1856,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_70";
-					description="Bewohner 70";
+					description="CIV 70";
 				};
 			};
 		};
@@ -1878,7 +1878,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_71";
-					description="Bewohner 71";
+					description="CIV 71";
 				};
 			};
 		};
@@ -1900,7 +1900,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_72";
-					description="Bewohner 72";
+					description="CIV 72";
 				};
 			};
 		};
@@ -1922,7 +1922,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_73";
-					description="Bewohner 73";
+					description="CIV 73";
 				};
 			};
 		};
@@ -1944,7 +1944,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_74";
-					description="Bewohner 74";
+					description="CIV 74";
 				};
 			};
 		};
@@ -1966,7 +1966,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_75";
-					description="Bewohner 75";
+					description="CIV 75";
 				};
 			};
 		};
@@ -2334,7 +2334,7 @@ class Mission
 					side="WEST";
 					vehicle="B_RangeMaster_F";
 					skill=0.60000002;
-					init="removeallWeapons this; this enableSimulation false; this addAction[localize""STR_MAR_Cop_Item_Shop"",life_fnc_virt_menu,""cop""]; this allowDamage false;  this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_Helicopter_Shop"",life_fnc_vehicleShopMenu,[""cop_air"",west,""cop_air_2"",""cop"",""APD - Air HQ""]];  this addAction[localize""STR_Garage_Title"",  {   if(life_HC_isActive) then {	[getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""cop_air_2""; life_garage_type = ""Air"";  },"""",0,false,false,"""",'playerSide == west'];  this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; this setObjectTextureGlobal [0,""textures\cop\kleidung\anwaerter_polizei.paa""];";
+					init="removeallWeapons this; this enableSimulation false; this addAction[localize""STR_MAR_Cop_Item_Shop"",life_fnc_virt_menu,""cop""]; this allowDamage false;  this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_Helicopter_Shop"",life_fnc_vehicleShopMenu,[""cop_air"",west,""cop_air_2"",""cop"",""APD - Air HQ""]];  this addAction[localize""STR_Garage_Title"",  {   if(life_HC_isActive) then {	[getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""cop_air_2""; life_garage_type = ""Air"";  },"""",0,false,false,"""",'playerSide == west'];  this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; this setObjectTextureGlobal [0,""textures\cop\kleidung\anwaerter_Policja.paa""];";
 				};
 				class Item28
 				{
@@ -2345,7 +2345,7 @@ class Mission
 					side="WEST";
 					vehicle="B_RangeMaster_F";
 					skill=0.60000002;
-					init="this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_W_E_Vehicle Shop"",life_fnc_vehicleShopMenu,[""cop_car"",west,""cop_car_2"",""cop"",""APD - Athira District""]];  this addAction[localize""STR_Garage_Title"",  {   if(life_HC_isActive) then {	[getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""cop_car_2""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide == west'];  this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; this setObjectTextureGlobal [0,""textures\cop\kleidung\anwaerter_polizei.paa""];";
+					init="this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_W_E_Vehicle Shop"",life_fnc_vehicleShopMenu,[""cop_car"",west,""cop_car_2"",""cop"",""APD - Athira District""]];  this addAction[localize""STR_Garage_Title"",  {   if(life_HC_isActive) then {	[getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""cop_car_2""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide == west'];  this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; this setObjectTextureGlobal [0,""textures\cop\kleidung\anwaerter_Policja.paa""];";
 				};
 				class Item29
 				{
@@ -2965,7 +2965,7 @@ class Mission
 					vehicle="C_Nikos_aged";
 					leader=1;
 					skill=0.5;
-					text="Tankstelle_Autobahnpolizei";
+					text="Tankstelle_AutobahnPolicja";
 					init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];this addAction[""Laden ausrauben"",life_fnc_robShops,"""",0,false,false,"""",'playerSide == civilian && vehicle player == player && player distance _target < 4'];  ";
 				};
 			};
@@ -4014,7 +4014,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_79";
-					description="Bewohner 79";
+					description="CIV 79";
 				};
 			};
 		};
@@ -4036,7 +4036,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_80";
-					description="Bewohner 80";
+					description="CIV 80";
 				};
 			};
 		};
@@ -4058,7 +4058,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_81";
-					description="Bewohner 81";
+					description="CIV 81";
 				};
 			};
 		};
@@ -4080,7 +4080,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_82";
-					description="Bewohner 82";
+					description="CIV 82";
 				};
 			};
 		};
@@ -4102,7 +4102,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_83";
-					description="Bewohner 83";
+					description="CIV 83";
 				};
 			};
 		};
@@ -4124,7 +4124,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_84";
-					description="Bewohner 84";
+					description="CIV 84";
 				};
 			};
 		};
@@ -4146,7 +4146,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_85";
-					description="Bewohner 85";
+					description="CIV 85";
 				};
 			};
 		};
@@ -4168,7 +4168,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_86";
-					description="Bewohner 86";
+					description="CIV 86";
 				};
 			};
 		};
@@ -4190,7 +4190,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_87";
-					description="Bewohner 87";
+					description="CIV 87";
 				};
 			};
 		};
@@ -4212,7 +4212,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_88";
-					description="Bewohner 88";
+					description="CIV 88";
 				};
 			};
 		};
@@ -4234,7 +4234,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_89";
-					description="Bewohner 89";
+					description="CIV 89";
 				};
 			};
 		};
@@ -4256,7 +4256,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="civ_90";
-					description="Bewohner 90";
+					description="CIV 90";
 				};
 			};
 		};
@@ -4279,7 +4279,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_1";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Polizei 1";
+					description="WhiteListed - Policja 1";
 				};
 				class Item1
 				{
@@ -4292,7 +4292,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_2";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Polizei 2";
+					description="WhiteListed - Policja 2";
 				};
 				class Item2
 				{
@@ -4305,7 +4305,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_3";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Polizei 3";
+					description="WhiteListed - Policja 3";
 				};
 				class Item3
 				{
@@ -4318,7 +4318,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_4";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Polizei 4";
+					description="WhiteListed - Policja 4";
 				};
 				class Item4
 				{
@@ -4331,7 +4331,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_5";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Polizei 5";
+					description="WhiteListed - Policja 5";
 				};
 				class Item5
 				{
@@ -4344,7 +4344,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_6";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Polizei 6";
+					description="WhiteListed - Policja 6";
 				};
 				class Item6
 				{
@@ -4357,7 +4357,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_7";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Polizei 7";
+					description="WhiteListed - Policja 7";
 				};
 				class Item7
 				{
@@ -4370,7 +4370,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_8";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Polizei 8";
+					description="WhiteListed - Policja 8";
 				};
 				class Item8
 				{
@@ -4383,7 +4383,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_9";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Polizei 9";
+					description="WhiteListed - Policja 9";
 				};
 				class Item9
 				{
@@ -4396,7 +4396,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_10";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Polizei 10";
+					description="WhiteListed - Policja 10";
 				};
 				class Item10
 				{
@@ -4409,7 +4409,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_19";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Polizei 19";
+					description="WhiteListed - Policja 19";
 				};
 				class Item11
 				{
@@ -4422,7 +4422,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_18";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Polizei 18";
+					description="WhiteListed - Policja 18";
 				};
 				class Item12
 				{
@@ -4435,7 +4435,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_17";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Polizei 17";
+					description="WhiteListed - Policja 17";
 				};
 				class Item13
 				{
@@ -4448,7 +4448,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_16";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Polizei 16";
+					description="WhiteListed - Policja 16";
 				};
 				class Item14
 				{
@@ -4461,7 +4461,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_15";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Polizei 15";
+					description="WhiteListed - Policja 15";
 				};
 				class Item15
 				{
@@ -4475,7 +4475,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_14";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Polizei 14";
+					description="WhiteListed - Policja 14";
 				};
 				class Item16
 				{
@@ -4488,7 +4488,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_13";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Polizei 13";
+					description="WhiteListed - Policja 13";
 				};
 				class Item17
 				{
@@ -4501,7 +4501,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_12";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Polizei 12";
+					description="WhiteListed - Policja 12";
 				};
 				class Item18
 				{
@@ -4514,7 +4514,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_11";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Polizei 11";
+					description="WhiteListed - Policja 11";
 				};
 				class Item19
 				{
@@ -4527,7 +4527,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_20";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Polizei 20";
+					description="WhiteListed - Policja 20";
 				};
 				class Item20
 				{
@@ -4540,7 +4540,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_21";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Polizei 21";
+					description="WhiteListed - Policja 21";
 				};
 				class Item21
 				{
@@ -4553,7 +4553,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_22";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Polizei 22";
+					description="WhiteListed - Policja 22";
 				};
 				class Item22
 				{
@@ -4566,7 +4566,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_23";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Polizei 23";
+					description="WhiteListed - Policja 23";
 				};
 				class Item23
 				{
@@ -4579,7 +4579,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_24";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Polizei 24";
+					description="WhiteListed - Policja 24";
 				};
 				class Item24
 				{
@@ -4592,7 +4592,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_25";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Polizei 25";
+					description="WhiteListed - Policja 25";
 				};
 			};
 		};
@@ -128086,7 +128086,7 @@ class Mission
 		{
 			position[]={2698.7031,10.802492,9891.4873};
 			name="kw_map_1_1";
-			text="Polizei Trainings Lager";
+			text="Policja Trainings Lager";
 			type="flag_NATO";
 		};
 		class Item378
@@ -129035,7 +129035,7 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			expCond="this && (local player) && (vehicle player in thisList)";
-			expActiv="hintSilent parseText format[""<t size='1' color='#00FF00'>ACHTUNG! Sie betreten Die Staatsbank von Altis, Bitte Verlassen Sie umgehend das Gelände ansonsten müssen Sie mit Strafe rechnen Besten Dank Ihre Polizei Altis </t>"", name player]; ";
+			expActiv="hintSilent parseText format[""<t size='1' color='#00FF00'>ACHTUNG! Sie betreten Die Staatsbank von Altis, Bitte Verlassen Sie umgehend das Gelände ansonsten müssen Sie mit Strafe rechnen Besten Dank Ihre Policja Altis </t>"", name player]; ";
 			expDesactiv="hintSilent parseText format[""<t size='1' color='#00FF00'>Danke für Ihre Kooperation wir wünschen Ihnen ein angenehmen aufenthalt</t>"", name player]; ";
 			class Effects
 			{
@@ -129108,8 +129108,8 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			expCond="this && (local player) && (vehicle player in thisList)";
-			expActiv="hintSilent parseText format[""<t size='1' color='#00FF00'>Vorsicht %1, du betrittst gerade ein Polizei Gelände. Bei Missachtung der Regel musst du mit Konsequenzen rechnen.</t>"", name player]; ";
-			expDesactiv="hintSilent parseText format[""<t size='1' color='#FF0000'>Du hast das Polizei Gelände verlassen. Auf Wiedersehen %1!</t>"", name player];";
+			expActiv="hintSilent parseText format[""<t size='1' color='#00FF00'>Vorsicht %1, du betrittst gerade ein Policja Gelände. Bei Missachtung der Regel musst du mit Konsequenzen rechnen.</t>"", name player]; ";
+			expDesactiv="hintSilent parseText format[""<t size='1' color='#FF0000'>Du hast das Policja Gelände verlassen. Auf Wiedersehen %1!</t>"", name player];";
 			class Effects
 			{
 			};
@@ -129125,7 +129125,7 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			expCond="this && (local player) && (vehicle player in thisList)";
-			expActiv="hintSilent parseText format[""<t size='1' color='#00FF00'>ACHTUNG! Sie betreten Die Staatsbank von Altis, Bitte Verlassen Sie umgehend das Gelände ansonsten müssen Sie mit Strafe rechnen Besten Dank Ihre Polizei Altis </t>"", name player]; ";
+			expActiv="hintSilent parseText format[""<t size='1' color='#00FF00'>ACHTUNG! Sie betreten Die Staatsbank von Altis, Bitte Verlassen Sie umgehend das Gelände ansonsten müssen Sie mit Strafe rechnen Besten Dank Ihre Policja Altis </t>"", name player]; ";
 			expDesactiv="hintSilent parseText format[""<t size='1' color='#00FF00'>Danke für Ihre Kooperation wir wünschen Ihnen ein angenehmen aufenthalt</t>"", name player]; ";
 			class Effects
 			{

@@ -15,7 +15,7 @@ class DeathScreen
 		{
 			idc = 7304;
 			colorBackground[] = {0,0,0,0};
-			text = "Medizinische Abteilung MTD verfügbar: 1";
+			text = "Wezwij medyka: 1";
 			x = 0.005  * safezoneW + safezoneX;
 			y = 0.015  * safezoneH + safezoneY;
 			w = 0.8;
@@ -26,7 +26,7 @@ class DeathScreen
 		{
 			idc = 7305;
 			colorBackground[] = {0,0,0,0};
-			text = "MTD Mitarbeiter in der nähe: No";
+			text = "Medyków w pobliżu: No";
 			x = 0.005  * safezoneW + safezoneX;
 			y = 0.040  * safezoneH + safezoneY;
 			w = 0.8;
@@ -40,7 +40,7 @@ class DeathScreen
 			y = 0.015  * safezoneH + safezoneY;
 			w = (9 / 40);
 			h = (1 / 25);
-			text = "Neues Leben";
+			text = "Nowe życie";
 			onButtonClick = "closeDialog 0; life_respawned = true; [] call life_fnc_spawnMenu;";
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.7};
 			class Attributes 
@@ -57,7 +57,7 @@ class DeathScreen
 			w = (9 / 40);
 			h = (1 / 25);
 			onButtonClick = "[] call life_fnc_requestMedic;";
-			text = "Notruf an MTD";
+			text = "Zgłoś awarie";
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.7};
 			class Attributes 
 			{

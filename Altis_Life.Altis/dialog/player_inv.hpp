@@ -143,7 +143,7 @@ class playerSettings {
 			color2[] = {-1,-1,-1,-1};
 			colorText[] = {-1,-1,-1,-1};
 			colorDisabled[] = {-1,-1,-1,-1};
-			tooltip = "Geben";
+			tooltip = "Daj";
 		};	
 	
 		class itemEdit: Life_RscEdit
@@ -307,7 +307,7 @@ class playerSettings {
 			y = 0.379 * safezoneH + safezoneY;
 			w = 0.0257812 * safezoneW;
 			h = 0.044 * safezoneH;
-			tooltip = "Geben";
+			tooltip = "Daj";
 		};
 		
 		class RefreshI_icon: Life_RscPicture
@@ -347,7 +347,7 @@ class playerSettings {
 			color2[] = {-1,-1,-1,-1};
 			colorText[] = {-1,-1,-1,-1};
 			colorDisabled[] = {-1,-1,-1,-1};
-			tooltip = "Geben";
+			tooltip = "Daj";
 		};
 
 		class UseButton: Life_RscButtonMenu
@@ -366,7 +366,7 @@ class playerSettings {
 			color2[] = {-1,-1,-1,-1};
 			colorText[] = {-1,-1,-1,-1};
 			colorDisabled[] = {-1,-1,-1,-1};
-			tooltip = "Benutzen";
+			tooltip = "Użyj";
 		};
 
 		class RemoveButton: Life_RscButtonMenu
@@ -385,7 +385,7 @@ class playerSettings {
 			color2[] = {-1,-1,-1,-1};
 			colorText[] = {-1,-1,-1,-1};
 			colorDisabled[] = {-1,-1,-1,-1};
-			tooltip = "Wegwerfen";
+			tooltip = "Usuń";
 		};
 		
 		
@@ -426,7 +426,7 @@ class playerSettings {
 			color2[] = {-1,-1,-1,-1};
 			colorText[] = {-1,-1,-1,-1};
 			colorDisabled[] = {-1,-1,-1,-1};
-			tooltip = "Nahe Spieler neu laden";
+			tooltip = "Odśwież";
 		};
 
 		class ButtonClose: Life_RscButtonMenu
@@ -452,7 +452,7 @@ class playerSettings {
 			color2[] = {-1,-1,-1,-1};
 			colorText[] = {-1,-1,-1,-1};
 			colorDisabled[] = {-1,-1,-1,-1};
-			tooltip = "Schließen";
+			tooltip = "Zamknij";
 		};
 
 		class ButtonSettings: Life_RscButtonMenu
@@ -472,7 +472,7 @@ class playerSettings {
 			color2[] = {-1,-1,-1,-1};
 			colorText[] = {-1,-1,-1,-1};
 			colorDisabled[] = {-1,-1,-1,-1};
-			tooltip = "Einstellungen";
+			tooltip = "Ustawienia";
 		};
 
 		class ButtonCell: Life_RscButtonMenu
@@ -491,7 +491,7 @@ class playerSettings {
 			color2[] = {-1,-1,-1,-1};
 			colorText[] = {-1,-1,-1,-1};
 			colorDisabled[] = {-1,-1,-1,-1};
-			tooltip = "Smartphone";
+			tooltip = "Smartphon";
 		};
 
 		class Licenses_menu: Life_RscControlsGroup
@@ -532,7 +532,7 @@ class playerSettings {
 			color2[] = {-1,-1,-1,-1};
 			colorText[] = {-1,-1,-1,-1};
 			colorDisabled[] = {-1,-1,-1,-1};
-			tooltip = "Gangmenü";
+			tooltip = "Gangmenu";
 		};
 		/*
 		class ButtonCraftList: Life_RscButtonMenu
@@ -570,7 +570,7 @@ class playerSettings {
 			color2[] = {-1,-1,-1,-1};
 			colorText[] = {-1,-1,-1,-1};
 			colorDisabled[] = {-1,-1,-1,-1};
-			tooltip = "Schlüsselbund";
+			tooltip = "Klucze";
 		};
 		class ButtonWantedList: Life_RscButtonMenu
 		{
@@ -588,7 +588,7 @@ class playerSettings {
 			color2[] = {-1,-1,-1,-1};
 			colorText[] = {-1,-1,-1,-1};
 			colorDisabled[] = {-1,-1,-1,-1};
-			tooltip = "Wantedliste";
+			tooltip = "Poszukiwani";
 		};
 		
 		class ButtonAdminMenu: Life_RscButtonMenu
@@ -607,7 +607,7 @@ class playerSettings {
 			color2[] = {-1,-1,-1,-1};
 			colorText[] = {-1,-1,-1,-1};
 			colorDisabled[] = {-1,-1,-1,-1};
-			tooltip = "Adminmenü";
+			tooltip = "Adminmenu";
 		};
 		
 		class ButtonSyncData: Life_RscButtonMenu
@@ -626,7 +626,7 @@ class playerSettings {
 			color2[] = {-1,-1,-1,-1};
 			colorText[] = {-1,-1,-1,-1};
 			colorDisabled[] = {-1,-1,-1,-1};
-			tooltip = "Speichern";
+			tooltip = "Zapisz";
 		};
 		/*
 		class ButtonMarkt: Life_RscButtonMenu

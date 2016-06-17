@@ -127103,7 +127103,7 @@ class Mission
 		{
 			position[]={6776.5771,118.15248,12264.665};
 			name="pilze_1";
-			text="Pilz Plantage";
+			text="Plantacja Grzybów";
 			type="mil_dot";
 			colorName="ColorRed";
 		};

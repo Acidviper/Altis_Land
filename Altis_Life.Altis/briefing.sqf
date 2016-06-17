@@ -2,15 +2,15 @@ waitUntil {!isNull player && player == player};
 if(player diarySubjectExists "rules")exitwith{};
 
 player createDiarySubject ["spacer1","———————"];
-player createDiarySubject ["Island_of_Liberty_Info","Altislife Community"];
+player createDiarySubject ["Island_of_Liberty_Info","AltisLand Info"];
 player createDiarySubject ["spacer2","———————"];
-player createDiarySubject ["rules","Serverregeln"];
+player createDiarySubject ["rules","Regulamin"];
 player createDiarySubject ["spacer2","———————"];
-player createDiarySubject ["busse","Bussgeldkatalog"];
+player createDiarySubject ["busse","Zasady"];
 player createDiarySubject ["spacer3","———————"];
-player createDiarySubject ["controls","Tastenkombis"];
+player createDiarySubject ["controls","Klawisze"];
 player createDiarySubject ["spacer6","———————"];
-player createDiarySubject ["farman","Farmanleitung"];
+player createDiarySubject ["farman","Przewodnik rolnika"];
 player createDiarySubject ["spacer7","———————"];
 
 
@@ -31,7 +31,7 @@ player createDiaryRecord ["spacer1",
 
 player createDiaryRecord ["Island_of-Liberty_Info",
 	[
-		"Webseite",
+		"WWW",
 "
 <br/>
 <font color='#af4545'>Zapraszamy na www.altisland.pl</font><br/><br/>
@@ -43,10 +43,10 @@ Zapraszamy na nasze forum.
 	
 player createDiaryRecord ["Island_of_Liberty_Info",
 	[
-		"Launcher",
+		"Lanczer",
 "
 <br/>
-Mit unserem eigenen Launcher:<font color='#af4545'>www.altisland.pl</font><br/><br/>
+Brak:<font color='#af4545'>www.altisland.pl</font><br/><br/>
 .......
 <br/>
 .......
@@ -76,8 +76,8 @@ player createDiaryRecord ["Island_of_Liberty_Info",
 		"Unterstzen",
 "
 <br/>
-<font color='#af4545'>Unterstützt uns</font><br/><br/>
-Wenn euch der Server gefällt und ihr diesen unterstützen wollt, schaut einfach auf unserer Webseite vorbei, dort findet ihr alle Informationen.
+<font color='#af4545'>Wesprzyj nas</font><br/><br/>
+Twoja pomoc zawsze się przyda.
 <br/>
 "
 		]
@@ -87,11 +87,11 @@ Wenn euch der Server gefällt und ihr diesen unterstützen wollt, schaut einfach
 
 player createDiaryRecord ["rules",
 	[
-		"Serverregeln",
+		"Regulamin",
 "
 <br/>
 <font color='#af4545'>Zasady Serwera</font><br/><br/>
-Alle Serverregeln findet ihr auf unserer Webseite www.altisland.pl, bitte informiert euch regelmäßig über Änderungen!
+wszystkie zasady nawww.altisland.pl, polecamy zapoznać się!
 <br/>
 "
 		]
@@ -101,11 +101,11 @@ Alle Serverregeln findet ihr auf unserer Webseite www.altisland.pl, bitte inform
 
 player createDiaryRecord ["busse",
 	[
-		"Bussgeldkatalog",
+		"Zasady",
 "
 <br/>
-<font color='#af4545'>Bussgeld</font><br/><br/>
-Die Bussgeldliste findet ihr auf unsererm Forum unter Altis Life Bussgeldkatalog!
+<font color='#af4545'>Kary</font><br/><br/>
+Zasady gry znajdziesz na forum!
 <br/>
 "
 		]
@@ -123,39 +123,39 @@ player createDiaryRecord ["spacer5",
 
 	player createDiaryRecord ["controls",
 		[
-			"TastenKombis",
+			"Klawisze",
 "<br/>
 == Spieler Tasten ====================================<br/>
 <br/>
-[ <font color='#af4545'>Mausrad</font> ] - Ohrstöpsel<br/>
-[ <font color='#af4545'>Z</font> ] - Spieler Menue oeffnen<br/>
-[ <font color='#af4545'>U</font> ] - Fahrzeuge auf/zu schliessen<br/>
-[ <font color='#af4545'>T</font> ] - Fahrzeug Kofferraum<br/>
+[ <font color='#af4545'>Scroll</font> ] - Zatyczki do uszu<br/>
+[ <font color='#af4545'>Z</font> ] - Menu<br/>
+[ <font color='#af4545'>U</font> ] - Otwieranie zamykanie pojazdu<br/>
+[ <font color='#af4545'>T</font> ] - Towar w pojezdzie<br/>
 <br/>
-[ <font color='#af4545'>Shift + B</font> ] - Aufgeben<br/>
-[ <font color='#af4545'>Links Shift + H</font> ] - Handwaffe holstern<br/>
-[ <font color='#af4545'>Links Shift + G</font> ] - Spieler K.O. schlagen<br/>
-[ <font color='#af4545'>Links Shift + R</font> ] - Spieler fesseln<br/>
-[ <font color='#af4545'>Links Windows oder auch plus T</font> ] - Interaktion / Reparatur / Aufsammeln<br/>
+[ <font color='#af4545'>Shift + B</font> ] - Poddanie się<br/>
+[ <font color='#af4545'> Shift + H</font> ] - Wyciąganie broni<br/>
+[ <font color='#af4545'> Shift + G</font> ] - Powalenie<br/>
+[ <font color='#af4545'> Shift + R</font> ] - Zakucie gracza<br/>
+[ <font color='#af4545'> Windows lub plus T</font> ] - interakcja / Naprawa / Zbieranie<br/>
 
 <br/>
 <br/>
 == Polizei | Medic  ====================================<br/>
 <br/>
-[ <font color='#af4545'>Links Winows</font> ] - Mit dem T-Menue lassen sich saemtliche Funktionen, wie Festnehmen oder Strafzettel ausstellen <br/>
-[ <font color='#af4545'>F</font> ] - Polizei / Medic Sirene ON/OFF<br/>
-[ <font color='#af4545'>X</font> ] - Polizei Yelp Anhaltesignal ON/OFF<br/>
-[ <font color='#af4545'>C</font> ] - Polizei Yelp Person ergeben ON/OFF<br/>
-[ <font color='#af4545'>V</font> ] - Polizei Yelp Fahrzeug anhalten ON/OFF<br/>
+[ <font color='#af4545'>Winows</font> ] - menu policji <br/>
+[ <font color='#af4545'>F</font> ] - Syreny ON/OFF<br/>
+[ <font color='#af4545'>X</font> ] - Policyjny sygnał ON/OFF<br/>
+[ <font color='#af4545'>C</font> ] - ??? ON/OFF<br/>
+[ <font color='#af4545'>V</font> ] - Zatrzymanie pojazdu ON/OFF<br/>
 [ <font color='#af4545'>Shift + Ä</font> ] - E-Banking<br/>
-[ <font color='#af4545'>Links Shift + O</font> ] - Polizei / Medic Sirene ON/OFF<br/>
-[ <font color='#af4545'>Links Shift + L</font> ] - Blaulicht ON/OFF <br/>
-[ <font color='#af4545'>Links Shift + H</font> ] - Handwaffe holstern<br/>
+[ <font color='#af4545'>Shift + O</font> ] -Syreny ON/OFF<br/>
+[ <font color='#af4545'>Shift + L</font> ] - światła policyjne ON/OFF <br/>
+[ <font color='#af4545'>Shift + H</font> ] - Wyciągnięcie broni<br/>
 <br/>
 <br/>
-== Geschwindigkeitsmessung / Blitzer ==================<br/>
+== Suszarka/Napastink ==================<br/>
 <br/>
-[ <font color='#af4545'>Taser auf Fahrzeug zoomen + L</font> ]
+[ <font color='#af4545'>Tazer na pojazd + L</font> ]
 "
 		]
 	];
@@ -189,8 +189,8 @@ player createDiaryRecord ["spacer7",
 //---------------------------------------------------//
 	player createDiaryRecord ["farman",
 		[
-			"Farmanleitung",
-"	Folgt demnächst
+			"Przewodnik rolnika",
+"	Niebawem :)
 "
 		]
 	];

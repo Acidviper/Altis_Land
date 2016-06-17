@@ -124985,7 +124985,7 @@ class Mission
 			vehicle="Land_InfoStand_V1_F";
 			leader=1;
 			skill=0.40000001;
-			init="this enableSimulation false; this allowDamage false; this addAction[""Helikopter kaufen"",life_fnc_vehicleShopMenu,[""civ_air"",civilian,[""civ_air_1"",""civ_air_1_2""],""civ"",""Carl's Airial Auto's""]];";
+			init="this enableSimulation false; this allowDamage false; this addAction[""Kup Helke"",life_fnc_vehicleShopMenu,[""civ_air"",civilian,[""civ_air_1"",""civ_air_1_2""],""civ"",""Carl's Airial Auto's""]];";
 		};
 		class Item11134
 		{
@@ -125007,7 +125007,7 @@ class Mission
 			vehicle="Land_InfoStand_V1_F";
 			leader=1;
 			skill=0.40000001;
-			init="this allowDamage false; this enableSimulation false; this addAction[""Fahrzeuggarage"",  {   [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_reb9"";  }]; this addAction[""Fahrzeug einparken"",  {   private[""_nearVehicle""];   _nearVehicle = nearestObjects[(getPos (_this select 0)),[""Car"",""Ship"",""Air""],35] select 0;   if(isNil ""_nearVehicle"") exitWith {hint ""Kein Fahrzeug in der Nähe"";};   [_nearVehicle,false,(_this select 1)] remoteExecCall [""TON_fnc_vehicleStore"",2];   hint ""Fahrzeug wird eingelagert..."";   life_garage_store = true;  },"""",0,false,false,"""",'!life_garage_store']; this addAction[""Helikopter Hangar"",  {   [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life];  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""air_reb9"";  }];";
+			init="this allowDamage false; this enableSimulation false; this addAction[""Garaż pojazdu"",  {   [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_reb9"";  }]; this addAction[""Fahrzeug einparken"",  {   private[""_nearVehicle""];   _nearVehicle = nearestObjects[(getPos (_this select 0)),[""Car"",""Ship"",""Air""],35] select 0;   if(isNil ""_nearVehicle"") exitWith {hint ""Kein Fahrzeug in der Nähe"";};   [_nearVehicle,false,(_this select 1)] remoteExecCall [""TON_fnc_vehicleStore"",2];   hint ""Fahrzeug wird eingelagert..."";   life_garage_store = true;  },"""",0,false,false,"""",'!life_garage_store']; this addAction[""Helikopter Hangar"",  {   [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life];  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""air_reb9"";  }];";
 		};
 		class Item11136
 		{
@@ -125018,7 +125018,7 @@ class Mission
 			vehicle="Land_InfoStand_V1_F";
 			leader=1;
 			skill=0.40000001;
-			init="this enableSimulation false;  this allowDamage false; this addAction[""Auto laden"",life_fnc_vehicleShopMenu,[""reb_car"",civilian,""reb_v_4"",""reb"",""Rebel Motorpool - Western Side""],0,false,false,"""",'license_civ_donator'];";
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Waga Pojazdu"",life_fnc_vehicleShopMenu,[""reb_car"",civilian,""reb_v_4"",""reb"",""Rebel Motorpool - Western Side""],0,false,false,"""",'license_civ_donator'];";
 		};
 		class Item11137
 		{
@@ -126462,7 +126462,7 @@ class Mission
 		{
 			position[]={3749.699,18.853607,12986.994};
 			name="hospital_marker";
-			text="MTD Medizinischer Stützpunkt";
+			text="MTD Punkt medyczny";
 			type="loc_Hospital";
 			colorName="ColorRed";
 		};
@@ -126483,7 +126483,7 @@ class Mission
 		{
 			position[]={3390.3743,4.9121876,13098.726};
 			name="Gen";
-			text="Gemischtwaren Händler";
+			text="Sklep Spożywczy";
 			type="c_unknown";
 			colorName="ColorGUER";
 		};
@@ -126625,7 +126625,7 @@ class Mission
 		{
 			position[]={3639.6475,10.210819,13073.828};
 			name="auktion";
-			text="Auktionshaus";
+			text="Dom Aukcyjny";
 			type="c_unknown";
 			colorName="ColorBrown";
 		};
@@ -126633,7 +126633,7 @@ class Mission
 		{
 			position[]={3650.085,10.243702,13125.563};
 			name="parkplatz";
-			text="Zivilisten Parkplätze";
+			text="Parking Cywilny";
 			markerType="RECTANGLE";
 			type="Empty";
 			colorName="ColorOrange";
@@ -126646,7 +126646,7 @@ class Mission
 		{
 			position[]={3649.2781,10.228877,13126.657};
 			name="zivi";
-			text="Zivilisten PKW Parkplatz";
+			text="Parking";
 			type="c_car";
 			colorName="ColorOrange";
 		};
@@ -126662,7 +126662,7 @@ class Mission
 		{
 			position[]={3510.6489,8.0899782,13014.396};
 			name="autospwan";
-			text="Fahrzeugspwan";
+			text="Spawn pojazdu";
 			markerType="RECTANGLE";
 			type="Empty";
 			colorName="ColorRed";
@@ -126675,7 +126675,7 @@ class Mission
 		{
 			position[]={3510.7078,8.0849762,13014.531};
 			name="autospwan_2";
-			text="Fahrzeugspwan";
+			text="Spawn pojazdu";
 			markerType="RECTANGLE";
 			type="Empty";
 			colorName="ColorRed";
@@ -126688,7 +126688,7 @@ class Mission
 		{
 			position[]={3767.4119,34.272186,12361.45};
 			name="autospwan_1";
-			text="Fahrzeugspwan";
+			text="Spawn pojazdu";
 			markerType="RECTANGLE";
 			type="Empty";
 			colorName="ColorRed";
@@ -126720,7 +126720,7 @@ class Mission
 		{
 			position[]={3681.1311,10.837669,13185.602};
 			name="autospwan_2_1";
-			text="Fahrzeugspwan";
+			text="Spawn pojazdu";
 			markerType="RECTANGLE";
 			type="Empty";
 			colorName="ColorRed";
@@ -126733,7 +126733,7 @@ class Mission
 		{
 			position[]={3683.6519,10.362916,13145.773};
 			name="parkplatz_1";
-			text="Zivilisten LKW Parkplätze";
+			text="Parking";
 			markerType="RECTANGLE";
 			type="Empty";
 			colorName="ColorOrange";
@@ -126770,7 +126770,7 @@ class Mission
 		{
 			position[]={3518.5691,0.0011281616,13763.104};
 			name="strandresort";
-			text="Kavala Strand Resort";
+			text="Kavala Resort";
 			type="hd_flag";
 			colorName="ColorCIV";
 		};
@@ -126803,7 +126803,7 @@ class Mission
 		{
 			position[]={3646.0483,14.751154,12982.748};
 			name="casino_legal";
-			text="Staatliches Casino";
+			text="Best Casino";
 			type="o_mortar";
 			colorName="ColorCIV";
 		};
@@ -126811,7 +126811,7 @@ class Mission
 		{
 			position[]={3772.1355,12.567696,13285.12};
 			name="tanke_9";
-			text="Cris PKW Lackiererei";
+			text="Cris PKW Lakiernik";
 			type="b_service";
 			colorName="ColorGUER";
 		};
@@ -126819,7 +126819,7 @@ class Mission
 		{
 			position[]={3712.8918,11.772413,13180.142};
 			name="lkw_park_1";
-			text="Behörden Parkplätze";
+			text="Władze Parkingowe";
 			type="c_car";
 			colorName="ColorBlue";
 		};
@@ -126837,7 +126837,7 @@ class Mission
 		{
 			position[]={25030.412,-0.138585,2177.5283};
 			name="Carshop_1_1_1_1_1";
-			text="111111";
+			text="Castel";
 			type="mil_warning";
 			colorName="ColorGreen";
 			a=0;
@@ -126877,7 +126877,7 @@ class Mission
 		{
 			position[]={3721.3,51.526985,12452.958};
 			name="marker_olgasmuehle";
-			text="Olgas Mühle";
+			text="Młyn";
 			type="mil_dot";
 			colorName="ColorOrange";
 		};
@@ -126925,7 +126925,7 @@ class Mission
 		{
 			position[]={3259.5996,6.8861332,12433.31};
 			name="adac1_1_1_3_1_1_3";
-			text="Technische Ausrüstung ";
+			text="Wyposażenie techniczne ";
 			type="mil_box";
 			colorName="ColorOrange";
 		};
@@ -126933,7 +126933,7 @@ class Mission
 		{
 			position[]={3692.9131,10.192215,13160.358};
 			name="adac1_1_1_3_1_1_4";
-			text="Technische Ausrüstung";
+			text="Wyposażenie techniczne";
 			type="mil_box";
 			colorName="ColorOrange";
 		};
@@ -126957,7 +126957,7 @@ class Mission
 		{
 			position[]={24000.826,1.3302881,15383.309};
 			name="Radioactive_Marker";
-			text="Radioaktiv!!!!";
+			text="Promieniowanie!!!!";
 			markerType="ELLIPSE";
 			type="Empty";
 			colorName="ColorRed";
@@ -126969,7 +126969,7 @@ class Mission
 		{
 			position[]={23998.463,0.62828362,15381.653};
 			name="uranium_mine";
-			text="Radioaktiv!!!";
+			text="Promieniowanie!!!";
 			type="KIA";
 			colorName="ColorRed";
 			fillName="SolidBorder";
@@ -126979,7 +126979,7 @@ class Mission
 		{
 			position[]={25797.605,12.00218,23547.848};
 			name="Uran Reinigen";
-			text="1. Uranreinigung";
+			text="1. Czysty uran";
 			type="mil_dot";
 			colorName="ColorRed";
 			angle=252.505;
@@ -126988,7 +126988,7 @@ class Mission
 		{
 			position[]={23617.6,52.133461,21775.813};
 			name="Uranaufloesung";
-			text="2. Uranverarbeitung";
+			text="2. Rozszczepianie Uranu";
 			type="hd_dot";
 			colorName="ColorRed";
 			angle=141.19868;
@@ -126997,7 +126997,7 @@ class Mission
 		{
 			position[]={25456.643,10.020043,20320.514};
 			name="Urantrenner";
-			text="3. Urananreicherung";
+			text="3. Wzbogacony Uran";
 			type="mil_dot";
 			colorName="ColorRed";
 		};
@@ -127005,7 +127005,7 @@ class Mission
 		{
 			position[]={20738.438,18.01293,15751.542};
 			name="Uran Anreichern";
-			text="4. Brennstab Herstellung";
+			text="4. Prety Paliwowe";
 			type="mil_dot";
 			colorName="ColorRed";
 		};
@@ -127021,7 +127021,7 @@ class Mission
 		{
 			position[]={22771.281,18.352619,13575.099};
 			name="Uran Reinigen_1";
-			text="[IL] Uran Schieber";
+			text="[IL] Przetwornia Uranu";
 			type="mil_dot";
 			colorName="ColorRed";
 			angle=252.505;
@@ -127094,7 +127094,7 @@ class Mission
 		{
 			position[]={23174.604,14.289363,19991.379};
 			name="Weed_p_1_2_1";
-			text="Marihuanaverarbeitung ";
+			text="Przetwarzanie Marichuany ";
 			type="mil_dot";
 			colorName="ColorOrange";
 			angle=-21.407301;
@@ -127111,7 +127111,7 @@ class Mission
 		{
 			position[]={12996.603,72.082321,21897.238};
 			name="masch_marker";
-			text="Mushrooms Herstellung";
+			text="Gotowanie Grzybkow";
 			type="mil_dot";
 			colorName="ColorRed";
 		};
@@ -127156,7 +127156,7 @@ class Mission
 		{
 			position[]={14225.168,35.034714,18886.258};
 			name="civ_gar_1_1_1_1_1";
-			text="Zivilistenlandeplatz";
+			text="Lądowisko Cywilne";
 			type="c_air";
 			colorName="ColorBlue";
 			angle=0.44301695;
@@ -127278,7 +127278,7 @@ class Mission
 		{
 			position[]={10023.873,101.10876,6921.9194};
 			name="marker1rdm";
-			text="!!! RDM - ZONE !!!";
+			text="!!! Strefa RDM !!!";
 			type="hd_objective";
 			colorName="ColorRed";
 		};
@@ -127286,7 +127286,7 @@ class Mission
 		{
 			position[]={8141.9473,184.54347,14450.612};
 			name="holz_1";
-			text="Baumfällergebiet";
+			text="Obszar Rejestrowany";
 			type="mil_dot";
 			colorName="ColorOrange";
 		};
@@ -127294,7 +127294,7 @@ class Mission
 		{
 			position[]={17386.521,21.096357,16029.856};
 			name="holz_2";
-			text="Baumfällergebiet";
+			text="Obszar Rejestrowany";
 			type="mil_dot";
 			colorName="ColorOrange";
 		};
@@ -127302,7 +127302,7 @@ class Mission
 		{
 			position[]={14594.414,50.009609,20886.508};
 			name="schreinereimarker";
-			text="Sägewerk";
+			text="Tartak";
 			type="mil_dot";
 			colorName="ColorBrown";
 		};
@@ -127326,7 +127326,7 @@ class Mission
 		{
 			position[]={3419.0544,4.2551217,13128.354};
 			name="hauszubehoer";
-			text="Hauszubehör";
+			text="Wielobranżowy";
 			type="c_unknown";
 			colorName="ColorGUER";
 		};
@@ -127349,7 +127349,7 @@ class Mission
 		{
 			position[]={18098.518,18.847137,19182.338};
 			name="marker_lsdherstellung";
-			text="LSD Herstellung";
+			text="Produkcja LSD";
 			type="mil_dot";
 			colorName="ColorRed";
 		};
@@ -127364,7 +127364,7 @@ class Mission
 		{
 			position[]={5878.3521,204.82005,20303.563};
 			name="marker_metall";
-			text="Metall fundort";
+			text="Wydobycie Metalu";
 			type="mil_dot";
 			colorName="ColorBrown";
 		};
@@ -127372,7 +127372,7 @@ class Mission
 		{
 			position[]={10059.858,83.360611,17308.408};
 			name="marker_metall1";
-			text="Schlosserei";
+			text="Obróbka Metalu";
 			type="mil_dot";
 			colorName="ColorBrown";
 		};
@@ -127380,7 +127380,7 @@ class Mission
 		{
 			position[]={13854.049,19.780001,18601.713};
 			name="adac1_1";
-			text="MTD  - Technischer Stützpunkt";
+			text="MTD  - Baza Techniczna";
 			type="mil_box";
 			colorName="ColorOrange";
 		};
@@ -127388,7 +127388,7 @@ class Mission
 		{
 			position[]={17176.895,12.722455,13290.044};
 			name="adac1_2";
-			text="MTD  - Technischer Stützpunkt";
+			text="MTD  - Baza Techniczna";
 			type="mil_box";
 			colorName="ColorOrange";
 		};
@@ -127396,7 +127396,7 @@ class Mission
 		{
 			position[]={25690.025,17.589218,21236};
 			name="adac1_3";
-			text="MTD  - Technischer Stützpunkt";
+			text="MTD  - Baza Techniczna";
 			type="mil_box";
 			colorName="ColorOrange";
 		};
@@ -127404,7 +127404,7 @@ class Mission
 		{
 			position[]={13834.323,19.780001,18580.234};
 			name="adac1_1_1_3_1_1_4_1";
-			text="Technische Ausrüstung";
+			text="Wyposażenie techniczne";
 			type="mil_box";
 			colorName="ColorOrange";
 		};
@@ -127412,7 +127412,7 @@ class Mission
 		{
 			position[]={25685.291,18.255117,21257.98};
 			name="adac1_1_1_3_1_1_4_2";
-			text="Technische Ausrüstung";
+			text="Wyposażenie techniczne";
 			type="mil_box";
 			colorName="ColorOrange";
 		};
@@ -127420,7 +127420,7 @@ class Mission
 		{
 			position[]={17214.688,12.863738,13281.894};
 			name="adac1_1_1_3_1_1_4_3";
-			text="Technische Ausrüstung";
+			text="Wyposażenie techniczne";
 			type="mil_box";
 			colorName="ColorOrange";
 		};
@@ -127494,7 +127494,7 @@ class Mission
 		{
 			position[]={14101.577,26.695108,18908.283};
 			name="hospital_marker_1";
-			text="MTD Medizinischer Stützpunkt";
+			text="MTD Baza Medyczna";
 			type="loc_Hospital";
 			colorName="ColorRed";
 		};
@@ -127502,7 +127502,7 @@ class Mission
 		{
 			position[]={16652.873,2.4404297,12293.058};
 			name="hospital_marker_2";
-			text="MTD Medizinischer Stützpunkt";
+			text="MTD Baza Medyczna";
 			type="loc_Hospital";
 			colorName="ColorRed";
 		};
@@ -127510,7 +127510,7 @@ class Mission
 		{
 			position[]={25862.713,17.3983,21315.061};
 			name="hospital_marker_3";
-			text="MTD Medizinischer Stützpunkt";
+			text="MTD Baza Medyczna";
 			type="loc_Hospital";
 			colorName="ColorRed";
 		};
@@ -127566,7 +127566,7 @@ class Mission
 		{
 			position[]={3771.7261,18.85,12982.97};
 			name="marker_notfall";
-			text="Medizinischer Notfall";
+			text="Ratownictwo Medyczne";
 			type="mil_box";
 			colorName="ColorRed";
 		};
@@ -127574,7 +127574,7 @@ class Mission
 		{
 			position[]={14113.648,27.301289,18902.508};
 			name="marker_notfall_1";
-			text="Medizinischer Notfall";
+			text="Ratownictwo Medyczne";
 			type="mil_box";
 			colorName="ColorRed";
 		};
@@ -127582,7 +127582,7 @@ class Mission
 		{
 			position[]={16657.092,2.7338183,12274.21};
 			name="marker_notfall_2";
-			text="Medizinischer Notfall";
+			text="Ratownictwo Medyczne";
 			type="mil_box";
 			colorName="ColorRed";
 		};
@@ -127590,7 +127590,7 @@ class Mission
 		{
 			position[]={25850.162,17.794325,21317.596};
 			name="marker_notfall_3";
-			text="Medizinischer Notfall";
+			text="Ratownictwo Medyczne";
 			type="mil_box";
 			colorName="ColorRed";
 		};
@@ -127661,7 +127661,7 @@ class Mission
 		{
 			position[]={16648.506,2.1900001,12358.962};
 			name="civ_gar_1_1_1_1";
-			text="Zivilistenlandeplatz";
+			text="Lądowisko Cywilne";
 			type="c_air";
 			colorName="ColorBlue";
 			angle=6.8443952;
@@ -127701,7 +127701,7 @@ class Mission
 		{
 			position[]={23038.189,-0.0089691766,15456.362};
 			name="base_rebellen";
-			text="Rebellen Posten (coming soon)";
+			text="Rebeliancka Poczta (coming soon)";
 			type="KIA";
 			colorName="ColorRed";
 		};
@@ -127787,7 +127787,7 @@ class Mission
 		{
 			position[]={12878.601,6.3932004,9811.9717};
 			name="gun_store_1_1_1";
-			text="Schwarzmarkt";
+			text="Czarny Rynek";
 			type="KIA";
 			colorName="ColorBlack";
 			angle=-1.4265062;
@@ -127806,7 +127806,7 @@ class Mission
 		{
 			position[]={13475.039,5.3557925,14674.312};
 			name="artefact_proc";
-			text="Artefakt Spezialist";
+			text="Spec Archeolog";
 			type="mil_dot";
 			colorName="ColorRed";
 		};
@@ -127814,7 +127814,7 @@ class Mission
 		{
 			position[]={14871.646,7.3448048,23523.348};
 			name="ach_artefact2";
-			text="Artefakt Dealer";
+			text="Artefakt Diler";
 			type="mil_dot";
 			colorName="ColorOrange";
 			angle=-909.00299;
@@ -127833,7 +127833,7 @@ class Mission
 		{
 			position[]={19183.215,0.012078404,20396.998};
 			name="art2";
-			text="Archäologische Ausgrabungsstätte";
+			text="Wykopaliska";
 			type="mil_dot";
 			colorName="ColorRed";
 		};
@@ -127841,7 +127841,7 @@ class Mission
 		{
 			position[]={14522.811,-0.015820406,8899.7441};
 			name="art2_1";
-			text="Archäologische Ausgrabungsstätte";
+			text="Wykopaliska";
 			type="mil_dot";
 			colorName="ColorRed";
 		};
@@ -127960,7 +127960,7 @@ class Mission
 		{
 			position[]={25037.904,0.00080820918,3026.9084};
 			name="Carshop_1_1_1";
-			text="Version 4.4 by ";
+			text="Version 4.4 ";
 			type="mil_warning";
 			colorName="ColorCIV";
 		};
@@ -128018,7 +128018,7 @@ class Mission
 		{
 			position[]={25076.867,-0.023417562,2828.4243};
 			name="Carshop_1_1_1_1_2_1";
-			text="Cris";
+			text=".";
 			type="mil_warning";
 			colorName="ColorGreen";
 			a=0;
@@ -128034,7 +128034,7 @@ class Mission
 		{
 			position[]={16180.948,-0.0026873536,15369.727};
 			name="marker_bank";
-			text="Altis Staatsbank (coming soon)";
+			text="Altis Bank (coming soon)";
 			type="mil_warning";
 			colorName="ColorRed";
 		};
@@ -128049,7 +128049,7 @@ class Mission
 		{
 			position[]={12981.014,26.874828,15066.522};
 			name="marker_holz";
-			text="Zimmermann";
+			text="Stolarz";
 			type="mil_box";
 			colorName="ColorBrown";
 		};
@@ -128223,7 +128223,7 @@ class Mission
 		{
 			position[]={14027.249,26.264204,18733.666};
 			name="auktion_1";
-			text="Auktionshaus";
+			text="Dom Aukcyjny";
 			type="c_unknown";
 			colorName="ColorBrown";
 		};
@@ -128257,7 +128257,7 @@ class Mission
 		{
 			position[]={9174.5752,120.98086,15828.312};
 			name="metzger-marker";
-			text="Altis Metzgerei";
+			text="Altis Mięsny";
 			type="mil_box";
 			colorName="ColorBrown";
 		};
@@ -128265,7 +128265,7 @@ class Mission
 		{
 			position[]={14048.26,23.934156,18834.041};
 			name="parkplatz_2";
-			text="Zivilisten Parkplätze";
+			text="Parking";
 			markerType="RECTANGLE";
 			type="Empty";
 			colorName="ColorOrange";
@@ -128278,7 +128278,7 @@ class Mission
 		{
 			position[]={14048.041,23.915703,18833.381};
 			name="zivi_1";
-			text="Zivilisten PKW Parkplatz";
+			text="Parking Cywilny";
 			type="c_car";
 			colorName="ColorOrange";
 		};
@@ -128286,7 +128286,7 @@ class Mission
 		{
 			position[]={14012.119,23.830212,18898.029};
 			name="lkw_park_2";
-			text="LKW Parkplatz";
+			text="LKW Praking";
 			type="c_car";
 			colorName="ColorOrange";
 			angle=-239.17906;
@@ -128295,7 +128295,7 @@ class Mission
 		{
 			position[]={14011.816,23.814501,18898.775};
 			name="parkplatz_1_1";
-			text="Zivilisten LKW Parkplätze";
+			text="Parking";
 			markerType="RECTANGLE";
 			type="Empty";
 			colorName="ColorOrange";
@@ -128308,7 +128308,7 @@ class Mission
 		{
 			position[]={3394.5762,28.169132,14285.907};
 			name="boerse_altis";
-			text="Börse Altis";
+			text="Borse Altis";
 			type="mil_box";
 			colorName="ColorRed";
 			angle=-177.35699;
@@ -128355,7 +128355,7 @@ class Mission
 		{
 			position[]={18178.387,29.694965,15340.604};
 			name="marker_lizenzen";
-			text="Illegaler Lizenz Handel";
+			text="Nielegalne Licencje";
 			type="mil_dot";
 			colorName="ColorRed";
 		};
@@ -128363,7 +128363,7 @@ class Mission
 		{
 			position[]={9323.4766,119.82561,15886.174};
 			name="marker_lizenzen_1";
-			text="Illegaler Lizenz Handel";
+			text="Nielegalne Licencje";
 			type="mil_dot";
 			colorName="ColorRed";
 		};
@@ -128371,7 +128371,7 @@ class Mission
 		{
 			position[]={18764.906,34.081291,16690.617};
 			name="boerse_altis_1";
-			text="Börse Altis";
+			text="Borse Altis";
 			type="mil_box";
 			colorName="ColorRed";
 			angle=-177.35699;
@@ -128380,7 +128380,7 @@ class Mission
 		{
 			position[]={15688.105,14.660756,17467.797};
 			name="zulu";
-			text="Grenzübergang";
+			text="Przejscie Graniczne";
 			type="mil_warning";
 			colorName="ColorBlue";
 		};
@@ -128388,7 +128388,7 @@ class Mission
 		{
 			position[]={15683.046,4.7067752,16015.148};
 			name="mark_klein";
-			text="Durchschlupf";
+			text="Wyrwa";
 			type="mil_join";
 			colorName="ColorRed";
 			a=0.60000002;
@@ -128441,7 +128441,7 @@ class Mission
 		{
 			position[]={15682.043,15.064797,17499.23};
 			name="jail_mark_3";
-			text="Zum Gefängniss";
+			text="Do Więzienia";
 			type="mil_objective";
 			colorName="ColorRed";
 			a=0.5;
@@ -128487,7 +128487,7 @@ class Mission
 		{
 			position[]={16562.461,2.27,12535.19};
 			name="auktion_2";
-			text="Auktionshaus";
+			text="Dom Aukyjny";
 			type="c_unknown";
 			colorName="ColorBrown";
 		};
@@ -128495,7 +128495,7 @@ class Mission
 		{
 			position[]={25709.908,21.352022,21496.16};
 			name="civ_gar_1_1_1_1_2";
-			text="Zivilistenlandeplatz";
+			text="Parking";
 			type="c_air";
 			colorName="ColorBlue";
 			angle=1.9866076;
@@ -128504,7 +128504,7 @@ class Mission
 		{
 			position[]={25711.145,20.959627,21454.494};
 			name="auktion_2_1";
-			text="Auktionshaus";
+			text="Dom Aukcyjny";
 			type="c_unknown";
 			colorName="ColorBrown";
 		};
@@ -128589,7 +128589,7 @@ class Mission
 		{
 			position[]={-35566.266,0.053372018,-17586.992};
 			name="fqfqffq_1";
-			text="Illuminati CONFIRMED";
+			text="Illuminati";
 			type="mil_triangle";
 			colorName="ColorKhaki";
 			a=5;
@@ -128936,7 +128936,7 @@ class Mission
 		{
 			position[]={62975.074,0.14171982,-18921.994};
 			name="mfeu_1";
-			text="map edit by hansi";
+			text="map edit by acid";
 			type="mil_triangle";
 			colorName="ColorWEST";
 			a=0;
@@ -129077,7 +129077,7 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			expCond="this && (local player) && (vehicle player in thisList)";
-			expActiv="hintSilent parseText format[""<t size='1' color='#00FF00'>Vorsicht %1 betritt das gentechnische Testgebiet, es besteht die Möglichkeit, das ihm zwei Köpfe oder auch ein ,,drittes Bein'' wachsen!</t>"", name player]; ";
+			expActiv="hintSilent parseText format[""<t size='1' color='#00FF00'>Uwaga %1 wchodzisz w obszar badań genetycznych, istnieje możliwość, że  dwie głowy lub nawet trzecia noga Tobie urośnie!</t>"", name player]; ";
 			class Effects
 			{
 			};
@@ -129094,7 +129094,7 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			expCond="this && (local player) && (vehicle player in thisList)";
-			expActiv="hintSilent parseText format[""<t size='1' color='#00FF00'>Vorsicht %1 betritt das gentechnische Testgebiet, es besteht die Möglichkeit, das ihm zwei Köpfe oder auch ein ,,drittes Bein'' wachsen!</t>"", name player]; ";
+			expActiv="hintSilent parseText format[""<t size='1' color='#00FF00'>Uwaga %1 wchodzisz w obszar badań genetycznych, istnieje możliwość, że  dwie głowy lub nawet trzecia noga Tobie urośnie!</t>"", name player]; ";
 			class Effects
 			{
 			};
@@ -129111,7 +129111,7 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			expCond="this && (local player) && (vehicle player in thisList)";
-			expActiv="hintSilent parseText format[""<t size='1' color='#00FF00'>Vorsicht %1 betritt das gentechnische Testgebiet, es besteht die Möglichkeit, das ihm zwei Köpfe oder auch ein ,,drittes Bein'' wachsen!</t>"", name player]; ";
+			expActiv="hintSilent parseText format[""<t size='1' color='#00FF00'>Uwaga %1 wchodzisz w obszar badań genetycznych, istnieje możliwość, że  dwie głowy lub nawet trzecia noga Tobie urośnie!</t>"", name player]; ";
 			class Effects
 			{
 			};
@@ -129128,7 +129128,7 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			expCond="this && (local player) && (vehicle player in thisList)";
-			expActiv="hintSilent parseText format[""<t size='1' color='#00FF00'>Vorsicht %1 betritt das gentechnische Testgebiet, es besteht die Möglichkeit, das ihm zwei Köpfe oder auch ein ,,drittes Bein'' wachsen!</t>"", name player]; ";
+			expActiv="hintSilent parseText format[""<t size='1' color='#00FF00'>Uwaga %1 wchodzisz w obszar badań genetycznych, istnieje możliwość, że  dwie głowy lub nawet trzecia noga Tobie urośnie!</t>"", name player]; ";
 			class Effects
 			{
 			};
@@ -129144,8 +129144,8 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			expCond="this && (local player) && (vehicle player in thisList)";
-			expActiv="hintSilent parseText format[""<t size='1' color='#00FF00'>ACHTUNG! Sie betreten Die Staatsbank von Altis, Bitte Verlassen Sie umgehend das Gelände ansonsten müssen Sie mit Strafe rechnen Besten Dank Ihre Polizei Altis </t>"", name player]; ";
-			expDesactiv="hintSilent parseText format[""<t size='1' color='#00FF00'>Danke für Ihre Kooperation wir wünschen Ihnen ein angenehmen aufenthalt</t>"", name player]; ";
+			expActiv="hintSilent parseText format[""<t size='1' color='#00FF00'>Uwaga! Wchodzisz na Bank Altis, proszę natychmiast opuścić obszar przeciwnym razie trzeba się spodziewać kary Podziękuj Altis policji </t>"", name player]; ";
+			expDesactiv="hintSilent parseText format[""<t size='1' color='#00FF00'>Dziękuję za współpracę</t>"", name player]; ";
 			class Effects
 			{
 			};
@@ -129179,8 +129179,8 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			expCond="this && (local player) && (vehicle player in thisList)";
-			expActiv="hintSilent parseText format[""<t size='1' color='#00FF00'>Vorsicht %1, du betrittst gerade eine feuerfreie Safe-Zone. Bei Missachtung der Regel musst du mit Konsequenzen rechnen.</t>"", name player]; ";
-			expDesactiv="hintSilent parseText format[""<t size='1' color='#FF0000'>Du hast die Safezone verlassen. Auf Wiedersehen %1!</t>"", name player];";
+			expActiv="hintSilent parseText format[""<t size='1' color='#00FF00'>Uwaga %1, Safe zone pomijając reg. poniesiesz konsekwencje.</t>"", name player]; ";
+			expDesactiv="hintSilent parseText format[""<t size='1' color='#FF0000'>Opuszczasz Safe Zone Dowidzenia %1!</t>"", name player];";
 			class Effects
 			{
 			};
@@ -129198,8 +129198,8 @@ class Mission
 			type="SWITCH";
 			age="UNKNOWN";
 			expCond="this && (local player) && (vehicle player in thisList)";
-			expActiv="hint ""VORSICHT: Dies ist eine Sperrzone, bitte verlassen sie umgehend den Bereich.""";
-			expDesactiv="hint ""Sie haben den Sperrbereich verlassen""";
+			expActiv="hint ""UWAGA: Jest to zakazany obszar, należy natychmiast opuścić teren.""";
+			expDesactiv="hint ""Opuściłeś obszar zakazany""";
 			class Effects
 			{
 				sound="FD_Finish_F";
@@ -129217,8 +129217,8 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			expCond="this && (local player) && (vehicle player in thisList)";
-			expActiv="hintSilent parseText format[""<t size='1' color='#00FF00'>Vorsicht %1, du betrittst gerade ein Polizei Gelände. Bei Missachtung der Regel musst du mit Konsequenzen rechnen.</t>"", name player]; ";
-			expDesactiv="hintSilent parseText format[""<t size='1' color='#FF0000'>Du hast das Polizei Gelände verlassen. Auf Wiedersehen %1!</t>"", name player];";
+			expActiv="hintSilent parseText format[""<t size='1' color='#00FF00'>Uwaga %1, Teren policji złamiesz zasady poniesiesz karę.</t>"", name player]; ";
+			expDesactiv="hintSilent parseText format[""<t size='1' color='#FF0000'>Policja dziekuje. Miłego dnia %1!</t>"", name player];";
 			class Effects
 			{
 			};
@@ -129234,8 +129234,8 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			expCond="this && (local player) && (vehicle player in thisList)";
-			expActiv="hintSilent parseText format[""<t size='1' color='#00FF00'>ACHTUNG! Sie betreten Die Staatsbank von Altis, Bitte Verlassen Sie umgehend das Gelände ansonsten müssen Sie mit Strafe rechnen Besten Dank Ihre Polizei Altis </t>"", name player]; ";
-			expDesactiv="hintSilent parseText format[""<t size='1' color='#00FF00'>Danke für Ihre Kooperation wir wünschen Ihnen ein angenehmen aufenthalt</t>"", name player]; ";
+			expActiv="hintSilent parseText format[""<t size='1' color='#00FF00'>Uwaga! Wchodzisz na Bank Altis, proszę natychmiast opuścić obszar przeciwnym razie trzeba się spodziewać kary Podziękuj Altis policji </t>"", name player]; ";
+			expDesactiv="hintSilent parseText format[""<t size='1' color='#00FF00'>Dziękuję za współpracę</t>"", name player]; ";
 			class Effects
 			{
 			};
@@ -129266,7 +129266,7 @@ class Mission
 			interruptable=1;
 			type="SWITCH";
 			age="UNKNOWN";
-			expActiv="wende_schleife_truck = true; if (truck_test_in_prog) then { titleText [""Hier musst du nun wenden, danach gehts zurueck zum Startpunkt. Beeil dich!"", ""PLAIN""]; };";
+			expActiv="wende_schleife_truck = true; if (truck_test_in_prog) then { titleText [""Skręć teraz, a następnie wracaj do punktu wyjścia. pospiesz się!"", ""PLAIN""]; };";
 			class Effects
 			{
 			};

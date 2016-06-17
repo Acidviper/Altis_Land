@@ -125,7 +125,7 @@ player createDiaryRecord ["spacer5",
 		[
 			"Klawisze",
 "<br/>
-== Spieler Tasten ====================================<br/>
+== Klawisze Gracza ====================================<br/>
 <br/>
 [ <font color='#af4545'>Scroll</font> ] - Zatyczki do uszu<br/>
 [ <font color='#af4545'>Z</font> ] - Menu<br/>
@@ -140,7 +140,7 @@ player createDiaryRecord ["spacer5",
 
 <br/>
 <br/>
-== Polizei | Medic  ====================================<br/>
+== Policja/Medycy  ====================================<br/>
 <br/>
 [ <font color='#af4545'>Winows</font> ] - menu policji <br/>
 [ <font color='#af4545'>F</font> ] - Syreny ON/OFF<br/>

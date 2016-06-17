@@ -23,7 +23,7 @@ class controlsBackground {
 class RscText_1001: Life_RscText
 {
 	idc = 6780;
-	text = "Lizenz-Amt"; //--- ToDo: ;
+	text = "Biuro licencji"; //--- ToDo: ;
 	x = 0.268889 * safezoneW + safezoneX;
 	y = 0.125983 * safezoneH + safezoneY;
 	w = 0.47816 * safezoneW;
@@ -36,7 +36,7 @@ class controls {
 class RscStructuredText_1100: Life_RscStructuredText
 {
 	idc = 6782;
-	text= "Du wirst immer kleinere Instruktionen erhalten. Halte diese und die vorgegebene Zeit ein, dann solltest du die Lizenzen spielend leicht erhalten. ACHTUNG: Solltest du während deiner Tests von anderen Spielern in irgendeiner Hinsicht blockiert, behindert werden, so wende dich direkt an die Polizei des Servers. Dies ist Strafbar und kann mit Freiheitsentzug bestraft werden!";
+	text= "Zawsze będziesz otrzymywać instrukcje. W określonym czasie. UWAGA: Jeśli są blokowane podczas swoich działań z innymi graczami w jakikolwiek sposób zwróć się bezpośrednio do policji serwera. To jest karalne i może być karane więzieniem!";
 	x = 0.523908 * safezoneW + safezoneX;
 	y = 0.210987 * safezoneH + safezoneY;
 	w = 0.207203 * safezoneW;
@@ -47,9 +47,9 @@ class RscStructuredText_1100: Life_RscStructuredText
 class RscButtonMenu_2400: Life_RscButtonMenu
 {
 	idc = 6783;
-	text = "Auto - Schein"; //--- ToDo: ;
+	text = "Auto Licencja"; //--- ToDo: ;
 	action = "_nil=[""Car""]ExecVM ""scripts\license\lizenzen_abfrage.sqf"";";
-	tooltip ="Kosten: 4500$";
+	tooltip ="Cena: 4500$";
 	x = 0.284828 * safezoneW + safezoneX;
 	y = 0.210987 * safezoneH + safezoneY;
 	w = 0.135479 * safezoneW;
@@ -58,9 +58,9 @@ class RscButtonMenu_2400: Life_RscButtonMenu
 class RscButtonMenu_2401: Life_RscButtonMenu
 {
 	idc = 6784;
-	text = "LKW - Schein"; //--- ToDo: ;
+	text = "LKW - Licencja"; //--- ToDo: ;
 	action = "_nil=[""Trucker""]ExecVM ""scripts\license\lizenzen_abfrage.sqf"";";
-	tooltip ="Kosten: 35000$";
+	tooltip ="Cena: 35000$";
 	x = 0.284828 * safezoneW + safezoneX;
 	y = 0.27899 * safezoneH + safezoneY;
 	w = 0.135479 * safezoneW;
@@ -69,9 +69,9 @@ class RscButtonMenu_2401: Life_RscButtonMenu
 class RscButtonMenu_2402: Life_RscButtonMenu
 {
 	idc = 6785;
-	text = "Boots - Schein"; //--- ToDo: ;
+	text = "Zeglarska - Licencja"; //--- ToDo: ;
 	action = "_nil=[""Boating""]ExecVM ""scripts\license\lizenzen_abfrage.sqf"";";
-	tooltip ="Kosten: 10000$";
+	tooltip ="Cena: 10000$";
 	x = 0.284828 * safezoneW + safezoneX;
 	y = 0.346993 * safezoneH + safezoneY;
 	w = 0.135479 * safezoneW;
@@ -80,9 +80,9 @@ class RscButtonMenu_2402: Life_RscButtonMenu
 class RscButtonMenu_2403: Life_RscButtonMenu
 {
 	idc = 6786;
-	text = "Flug - Schein"; //--- ToDo: ;
+	text = "Licencja pilota"; //--- ToDo: ;
 	action = "_nil=[""Flying""]ExecVM ""scripts\license\lizenzen_abfrage.sqf"";";
-	tooltip ="Kosten: 160000$";
+	tooltip ="Cena: 160000$";
 	x = 0.284828 * safezoneW + safezoneX;
 	y = 0.414996 * safezoneH + safezoneY;
 	w = 0.135479 * safezoneW;
@@ -91,9 +91,9 @@ class RscButtonMenu_2403: Life_RscButtonMenu
 class RscButtonMenu_2404: Life_RscButtonMenu
 {
 	idc = 6787;
-	text = "Waffenschein"; //--- ToDo: ;
+	text = "Pozwolenie na broń"; //--- ToDo: ;
 	action = "_nil=[""Weapons""]ExecVM ""scripts\license\lizenzen_abfrage.sqf"";";
-	tooltip ="Kosten: 35000$";
+	tooltip ="Cena: 35000$";
 	x = 0.284828 * safezoneW + safezoneX;
 	y = 0.482999 * safezoneH + safezoneY;
 	w = 0.135479 * safezoneW;
@@ -102,9 +102,9 @@ class RscButtonMenu_2404: Life_RscButtonMenu
 class RscButtonMenu_2405: Life_RscButtonMenu
 {
 	idc = 6788;
-	text = "Eigentumsurkunde"; //--- ToDo: ;
+	text = "Pozwolenie na dom"; //--- ToDo: ;
 	action = "_nil=[""Housing""]ExecVM ""scripts\license\lizenzen_abfrage.sqf"";";
-	tooltip ="Kosten: 75000$";
+	tooltip ="Cena: 75000$";
 	x = 0.284828 * safezoneW + safezoneX;
 	y = 0.687009 * safezoneH + safezoneY;
 	w = 0.135479 * safezoneW;
@@ -114,9 +114,9 @@ class RscButtonMenu_2405: Life_RscButtonMenu
 class RscButtonMenu_2406: Life_RscButtonMenu
 {
 	idc = 6789;
-	text = "Jagdschein"; //--- ToDo: ;
+	text = "Licencja łowiecka"; //--- ToDo: ;
 	action = "_nil=[""hunting""]ExecVM ""scripts\license\lizenzen_abfrage.sqf"";";
-	tooltip ="Kosten: 30000$ Diese Lizenz erlaubt es dir legal Tiere zu jagen und sie auszuweiden.";
+	tooltip ="Cena: 30000$ Ta licencja pozwala legalnie zabijac zwierzęta.";
 	x = 0.284828 * safezoneW + safezoneX;
 	y = 0.551002 * safezoneH + safezoneY;
 	w = 0.135479 * safezoneW;
@@ -125,9 +125,9 @@ class RscButtonMenu_2406: Life_RscButtonMenu
 class RscButtonMenu_2407: Life_RscButtonMenu
 {
 	idc = 6790;
-	text = "Frachturkunde"; //--- ToDo: ;
+	text = "Dokumenty przewozowe"; //--- ToDo: ;
 	action = "_nil=[""cargo""]ExecVM ""scripts\license\lizenzen_abfrage.sqf"";";
-	tooltip ="Kosten: 550000$";
+	tooltip ="Cena: 550000$";
 	x = 0.284828 * safezoneW + safezoneX;
 	y = 0.619005 * safezoneH + safezoneY;
 	w = 0.135479 * safezoneW;

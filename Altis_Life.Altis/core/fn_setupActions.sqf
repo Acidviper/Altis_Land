@@ -7,7 +7,7 @@
 */
 
 //earplugs
-life_actions = [player addAction["<t color='#ADFF2F'>Użyłeś zatyczek do uszu</t>",{if (soundVolume == 1) then {1 fadeSound 0.1;}},"",-6,false,false,"",'soundVolume == 1']];
+life_actions = [player addAction["<t color='#ADFF2F'>Zatyczki do uszu</t>",{if (soundVolume == 1) then {1 fadeSound 0.1;}},"",-6,false,false,"",'soundVolume == 1']];
 life_actions pushBack [player addAction["<t color='#ADFF2F'>Głośniej</t>",{0 fadeSound (soundVolume / 5)},"",-6,false,false,"",'soundVolume < 1']];
 life_actions pushBack [player addAction["<t color='#ADFF2F'>Wyjąłeś zatyczki</t>",{if (soundVolume != 1) then {1 fadeSound 1;} },"",-6,false,false,"",'soundVolume != 1']];
 

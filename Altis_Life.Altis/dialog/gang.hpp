@@ -34,7 +34,7 @@ class Life_My_Gang_Diag {
 			color2[] = {-1,-1,-1,-1};
 			colorText[] = {-1,-1,-1,-1};
 			colorDisabled[] = {-1,-1,-1,-1};
-			tooltip = "Zurück";
+			tooltip = "Cofnij";
 		};
 	};
 		
@@ -91,7 +91,7 @@ class Life_My_Gang_Diag {
 			y = 0.6779661 * safezoneH + safezoneY;
 			w = 0.04230769 * safezoneW;
 			h = 0.07457627 * safezoneH;
-			tooltip = "Slots erweitern"; //--- ToDo: Localize;
+			tooltip = "Powiększ gang"; //--- ToDo: Localize;
 			colorBackground[] = {-1,-1,-1,-1};
 			colorBackgroundFocused[] = {-1,-1,-1,-1};
 			colorBackground2[] = {-1,-1,-1,-1};
@@ -110,7 +110,7 @@ class Life_My_Gang_Diag {
 			y = 0.6779661 * safezoneH + safezoneY;
 			w = 0.04230769 * safezoneW;
 			h = 0.07457627 * safezoneH;
-			tooltip = "Spieler Rauswerfen"; //--- ToDo: Localize;
+			tooltip = "Usuń"; //--- ToDo: Localize;
 			colorBackground[] = {-1,-1,-1,-1};
 			colorBackgroundFocused[] = {-1,-1,-1,-1};
 			colorBackground2[] = {-1,-1,-1,-1};
@@ -137,7 +137,7 @@ class Life_My_Gang_Diag {
 			color2[] = {-1,-1,-1,-1};
 			colorText[] = {-1,-1,-1,-1};
 			colorDisabled[] = {-1,-1,-1,-1};
-			tooltip = "Neuen Anführer bestimmen";
+			tooltip = "Wybierz lidera";
 		};
 
 		class InviteMember : GangLeader
@@ -156,7 +156,7 @@ class Life_My_Gang_Diag {
 			color2[] = {-1,-1,-1,-1};
 			colorText[] = {-1,-1,-1,-1};
 			colorDisabled[] = {-1,-1,-1,-1};	
-			tooltip = "Spieler einladen";
+			tooltip = "Zaproś";
 		};	
 	
 		class GangLeave : Life_RscButtonMenu 
@@ -175,7 +175,7 @@ class Life_My_Gang_Diag {
 			color2[] = {-1,-1,-1,-1};
 			colorText[] = {-1,-1,-1,-1};
 			colorDisabled[] = {-1,-1,-1,-1};
-			tooltip = "Gang verlassen";
+			tooltip = "Opuść gang";
 		};
 	
 		class DisbandGang : InviteMember
@@ -186,7 +186,7 @@ class Life_My_Gang_Diag {
 			y = 0.6779661 * safezoneH + safezoneY;
 			w = 0.04230769 * safezoneW;
 			h = 0.07457627 * safezoneH;
-			tooltip = "Gang auflösen"; //--- ToDo: Localize;
+			tooltip = "Usuń gang"; //--- ToDo: Localize;
 			colorBackground[] = {-1,-1,-1,-1};
 			colorBackgroundFocused[] = {-1,-1,-1,-1};
 			colorBackground2[] = {-1,-1,-1,-1};
@@ -202,7 +202,7 @@ class Life_My_Gang_Diag {
 		class RscText_1001: Life_RscText
 		{
 			idc = -1;
-			text = "Spieler einladen"; //--- ToDo: Localize;
+			text = "Dodaj"; //--- ToDo: Localize;
 			x = 0.44230769 * safezoneW + safezoneX;
 			y = 0.27118644 * safezoneH + safezoneY;
 			w = 0.113437 * safezoneW;
@@ -219,7 +219,7 @@ class Life_My_Gang_Diag {
 			y = 0.3041864 * safezoneH + safezoneY;
 			w = 0.0257812 * safezoneW;
 			h = 0.044 * safezoneH;
-			tooltip = "Spieler einladen";
+			tooltip = "Dodaj";
 		};
 		
 		class RscPicture_1202: Life_RscPicture
@@ -230,7 +230,7 @@ class Life_My_Gang_Diag {
 			y = 0.6779661 * safezoneH + safezoneY;
 			w = 0.04230769 * safezoneW;
 			h = 0.07457627 * safezoneH;
-			tooltip = "Spieler Rauswerfen";
+			tooltip = "Usuń";
 		};
 		
 		class RscPicture_1203: Life_RscPicture
@@ -241,7 +241,7 @@ class Life_My_Gang_Diag {
 			y = 0.6779661 * safezoneH + safezoneY;
 			w = 0.04230769 * safezoneW;
 			h = 0.07457627 * safezoneH;
-			tooltip = "Gang auflösen";
+			tooltip = "Usuń gang";
 		};
 		
 		class RscPicture_1204: Life_RscPicture
@@ -252,7 +252,7 @@ class Life_My_Gang_Diag {
 			y = 0.6779661 * safezoneH + safezoneY;
 			w = 0.04230769 * safezoneW;
 			h = 0.07457627 * safezoneH;
-			tooltip = "Slots erweitern";
+			tooltip = "Powiększ gang";
 		};
 		
 		class RscPicture_1205: Life_RscPicture
@@ -263,7 +263,7 @@ class Life_My_Gang_Diag {
 			y = 0.6779661 * safezoneH + safezoneY;
 			w = 0.04230769 * safezoneW;
 			h = 0.07457627 * safezoneH;
-			tooltip = "Gang verlassen";
+			tooltip = Opuść gang";
 		};
 
 		class RscPicture_1206: Life_RscPicture
@@ -274,7 +274,7 @@ class Life_My_Gang_Diag {
 			y = 0.6779661 * safezoneH + safezoneY;
 			w = 0.04230769 * safezoneW;
 			h = 0.07457627 * safezoneH;
-			tooltip = "Neuen Anführer bestimmen";
+			tooltip = "Ustaw lidera";
 		};
 	};
 };
@@ -319,7 +319,7 @@ class Life_Create_Gang_Diag {
 			color2[] = {-1,-1,-1,-1};
 			colorText[] = {-1,-1,-1,-1};
 			colorDisabled[] = {-1,-1,-1,-1};
-			tooltip = "Zurück";
+			tooltip = "Powrót";
 		};
 	};
 		

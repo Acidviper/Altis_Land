@@ -77,7 +77,7 @@ class Life_key_management {
 			color2[] = {-1,-1,-1,-1};
 			colorText[] = {-1,-1,-1,-1};
 			colorDisabled[] = {-1,-1,-1,-1};	
-			tooltip = "Schlüssel weg werfen";
+			tooltip = "Wyrzuć klucz";
 		};
 
 		class GiveKey_icon: life_RscPicture
@@ -106,7 +106,7 @@ class Life_key_management {
 			color2[] = {-1,-1,-1,-1};
 			colorText[] = {-1,-1,-1,-1};
 			colorDisabled[] = {-1,-1,-1,-1};
-			tooltip = "Zweitschlüssel vergeben";
+			tooltip = "Daj kluczyki";
 		};
 		/*
 		class RefreshNear_icon: life_RscPicture
@@ -155,7 +155,7 @@ class Life_key_management {
 			color2[] = {-1,-1,-1,-1};
 			colorText[] = {-1,-1,-1,-1};
 			colorDisabled[] = {-1,-1,-1,-1};
-			tooltip = "Zurück";
+			tooltip = "Cofniij";
 		};
 	};
 };

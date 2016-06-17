@@ -407,7 +407,7 @@ class playerSettings {
 			color2[] = {-1,-1,-1,-1};
 			colorText[] = {-1,-1,-1,-1};
 			colorDisabled[] = {-1,-1,-1,-1};
-			tooltip = "Nahe Spieler neu laden";
+			tooltip = " Odśwież";
 		};
 		
 		class RefreshMButton: Life_RscButtonMenu

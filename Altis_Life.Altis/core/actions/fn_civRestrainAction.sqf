@@ -17,7 +17,7 @@ if(!isPlayer _unit) exitWith {};
 
 if(life_inv_zipties < 1) then
 {
-    hint "Nie masz żadnych opasek zaciskowych";
+    hint "Nie masz żadnych Zippow";
 } else {
     life_inv_zipties = life_inv_zipties - 1;
     //Broadcast!

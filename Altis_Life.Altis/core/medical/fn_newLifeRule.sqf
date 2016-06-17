@@ -6,7 +6,7 @@ disableSerialization;
 7 cutRsc ["life_nlrtimer","PLAIN"];
 _uiDisp = uiNamespace getVariable "life_nlrtimer";
 _timer = _uiDisp displayCtrl 38301;
-_time = time + (30 * 60); 
+_time = time + (15 * 60); 
 life_nlrtimer_running = true;
 while {true} do {
       if(isNull _uiDisp) then {

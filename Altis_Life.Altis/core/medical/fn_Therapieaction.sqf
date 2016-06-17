@@ -18,5 +18,5 @@ if(!isPlayer _unit) exitWith {};
 if(side player == independent) then
 {
 
-[0,format["%1 wurde von %2 erfolgreich auf Drogen behandelt!",_unit getVariable["realname", name _unit], player getVariable["realname",name player]]] remoteExec ["life_fnc_broadcast",independent];
+[0,format["%1 Graczu %2 zostałeś uleczony!",_unit getVariable["realname", name _unit], player getVariable["realname",name player]]] remoteExec ["life_fnc_broadcast",independent];
 };

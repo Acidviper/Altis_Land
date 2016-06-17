@@ -8,7 +8,7 @@ private["_organThief"];
 _organThief = [_this,0,Objnull,[Objnull]] call BIS_fnc_param;
 if(isNull _organThief) exitWith {};
 
-[0,format["%1 hat eine Niere von %2 herausgeschnitten.",name _organThief,name player]] remoteExec ["life_fnc_broadcast",RCLIENT];
+[0,format["%1 Nerka %2 wycięta.",name _organThief,name player]] remoteExec ["life_fnc_broadcast",RCLIENT];
 [_organThief,"kidney",1] call life_fnc_handleInv;
 [getPlayerUID _organThief,name _organThief,"919",_organThief] remoteExec ["life_fnc_wantedAdd",RSERV];
 sleep 300;

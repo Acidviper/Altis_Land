@@ -8,15 +8,15 @@ if(!(alive _ziel)) then {_ziel = player;};
 switch(playerSide)do{
  case west:{
   switch (call life_coplevel) do{
-	case 1: { _rang = "Polizei Praktikant"; };
-	case 2: { _rang = "Polizei Anwaerter"; };
-	case 3: { _rang = "Polizei Wachtmeister"; };
-	case 4: { _rang = "Polizei Kommissar"; };
-	case 5: { _rang = "Polizei Oberkommissar"; };
-	case 6: { _rang = "Polizei Hauptkommisar"; };
-	case 7: { _rang = "Bundespolizist"; };
-	case 8: { _rang = "Polizei Chef stv."; };
-	case 9: { _rang = "Polizei Chef"; };
+	case 1: { _rang = "Praktykant"; };
+	case 2: { _rang = "Kadet"; };
+	case 3: { _rang = "Posterunkowy"; };
+	case 4: { _rang = "Komisarz"; };
+	case 5: { _rang = "Oficer"; };
+	case 6: { _rang = "Sierżant"; };
+	case 7: { _rang = "Porucznik"; };
+	case 8: { _rang = "Kapitan"; };
+	case 9: { _rang = "Komendant"; };
 	default { _rank =  "Error";};
   };
   _marke = "marke_cop";
@@ -24,13 +24,13 @@ switch(playerSide)do{
  };
  case independent:{
   switch (call life_mediclevel) do{
-	case 1: { _rang = "Mitarbeiter auf Probe"; };
-	case 2: { _rang = "Mitarbeiter in Ausbildung"; };
-	case 3: { _rang = "Mitarbeiter in Anstellung"; };
-	case 4: { _rang = "Mitarbeiter mit ADA-Lizenz"; };
-	case 5: { _rang = "Mitarbeiter fuer Logistik"; };
-    case 6: { _rang = "MTD Abteilungsleiter"; };
-	case 7: { _rang = "MTD Geschaeftsleitung"; };
+	case 1: { _rang = "Salowy"; };
+	case 2: { _rang = "Kaczkowy"; };
+	case 3: { _rang = "Pielegniarz"; };
+	case 4: { _rang = "Lekarz"; };
+	case 5: { _rang = "Logistyk"; };
+    case 6: { _rang = "Doktor"; };
+	case 7: { _rang = "Ordynator"; };
 	default {_rank =  "Error";};
   };
   _marke = "marke_mtd";

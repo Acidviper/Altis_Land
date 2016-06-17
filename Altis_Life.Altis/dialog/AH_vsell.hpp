@@ -20,7 +20,7 @@ class AH_vsell
 		class RscText_1001: Life_RscText
 		{
 			idc = -1;
-			text = "ZU VERKAUFEN"; //--- ToDo: Localize;
+			text = "NA SPRZEDAŻ"; //--- ToDo: Localize;
 			x = 0.269276 * safezoneW + safezoneX;
 			y = 0.246958 * safezoneH + safezoneY;
 			w = 0.163935 * safezoneW;
@@ -39,7 +39,7 @@ class AH_vsell
 		class RscButtonMenu_2400: Life_RscButtonMenu
 		{
 			idc = -1;
-			text = "VERKAUFEN"; //--- ToDo: Localize;
+			text = "SPRZEDAM"; //--- ToDo: Localize;
 			onButtonClick = "[] spawn life_fnc_vAH_sell;";
 			x = 0.665 * safezoneW + safezoneX; //399 - 604
 			y = 0.731039 * safezoneH + safezoneY;
@@ -51,7 +51,7 @@ class AH_vsell
 		class RscButtonMenu_2401: Life_RscButtonMenu
 		{
 			idc = -1;
-			text = "Schliessen"; //--- ToDo: Localize;
+			text = "Zamknij"; //--- ToDo: Localize;
 			onButtonClick = "closeDialog 0;";
 			x = 0.269276 * safezoneW + safezoneX;
 			y = 0.731039 * safezoneH + safezoneY;
@@ -82,7 +82,7 @@ class AH_vsell
 		class RscText_1002: Life_RscText
 		{
 			idc = -1;
-			text = "Anzahl"; //--- ToDo: Localize;
+			text = "Cena"; //--- ToDo: Localize;
 			x = 0.435 * safezoneW + safezoneX; //334
 			y = 0.731039 * safezoneH + safezoneY;
 			w = 0.07 * safezoneW;
@@ -99,7 +99,7 @@ class AH_vsell
 		class RscText_1003: Life_RscText
 		{
 			idc = -1;
-			text = "Totaler Preis $"; //--- ToDo: Localize;
+			text = "Ostateczna cena $"; //--- ToDo: Localize;
 			x = 0.523 * safezoneW + safezoneX; //334
 			y = 0.731039 * safezoneH + safezoneY;
 			w = 0.067 * safezoneW;
@@ -117,7 +117,7 @@ class AH_vsell
 		class RscButtonMenu_2404: Life_RscButtonMenu
 		{
 			idc = -1;
-			text = "ZURÜCKNEHMEN"; //--- ToDo: Localize;
+			text = "Zwrot"; //--- ToDo: Localize;
 			onButtonClick = "[] spawn life_fnc_vAH_takeBack;";
 			x = 0.345 * safezoneW + safezoneX;
 			y = 0.731039 * safezoneH + safezoneY;

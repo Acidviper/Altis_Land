@@ -20,7 +20,7 @@ class AH_vbuy
 		class RscText_1001: Life_RscText
 		{
 			idc = -1;
-			text = "ZU VERKAUFEN"; //--- ToDo: Localize;
+			text = "NA SPRZEDAŻ"; //--- ToDo: Localize;
 			x = 0.269276 * safezoneW + safezoneX;
 			y = 0.246958 * safezoneH + safezoneY;
 			w = 0.163935 * safezoneW;
@@ -39,7 +39,7 @@ class AH_vbuy
 		class RscButtonMenu_2400: Life_RscButtonMenu
 		{
 			idc = -1;
-			text = "Kaufen"; //--- ToDo: Localize;
+			text = "kup"; //--- ToDo: Localize;
 			onButtonClick = "[] spawn life_fnc_vAH_buy;";
 			x = 0.421 * safezoneW + safezoneX;
 			y = 0.731039 * safezoneH + safezoneY;
@@ -51,7 +51,7 @@ class AH_vbuy
 		class RscButtonMenu_2401: Life_RscButtonMenu
 		{
 			idc = -1;
-			text = "Schliessen"; //--- ToDo: Localize;
+			text = "Zakończ"; //--- ToDo: Localize;
 			onButtonClick = "closeDialog 0;";
 			x = 0.269276 * safezoneW + safezoneX;
 			y = 0.731039 * safezoneH + safezoneY;
@@ -61,7 +61,7 @@ class AH_vbuy
 		class RscButtonMenu_2402: Life_RscButtonMenu
 		{
 			idc = -1;
-			text = "VERKAUFEN"; //--- ToDo: Localize;
+			text = "SPRZEDAM"; //--- ToDo: Localize;
 			onButtonClick = "closeDialog 0;[] spawn life_fnc_vAH_loadInventory;";
 			x = 0.345 * safezoneW + safezoneX;
 			y = 0.731039 * safezoneH + safezoneY;
@@ -88,7 +88,7 @@ class AH_vbuy
 		class RscButtonMenu_2404: Life_RscButtonMenu
 		{
 			idc = -1;
-			text = "Suchen"; //--- ToDo: Localize;
+			text = "Poszukuje"; //--- ToDo: Localize;
 			onButtonClick = "_search = ctrlText 15102;closeDialog 0;[_search] spawn life_fnc_vAH_load;";
 			x = 0.660 * safezoneW + safezoneX;
 			y = 0.731039 * safezoneH + safezoneY;

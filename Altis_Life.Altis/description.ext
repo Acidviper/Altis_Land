@@ -482,7 +482,7 @@ class CfgDebriefing
 {
 	class NotWhitelisted
 	{
-		title = "Mission Fehlgeschlagen";
+		title = "misja nie powiodła się";
 		subtitle = "Du wurdest vom Dienst suspendiert";
 		description = "You are not allowed to use this slot because you do not have the appropriate permissions, try another slot.";
 		pictureBackground = "";
@@ -492,8 +492,8 @@ class CfgDebriefing
 
 	class Blacklisted
 	{
-		title = "Mission Fehlgeschlagen";
-		subtitle = "Du stehst auf der Polizei Blacklist";
+		title = "misja nie powiodła się";
+		subtitle = "Jesteś na czarnej liście policji";
 		description = "You are not allowed to be a cop due to previous actions and the admins have removed you from being a cop.";
 		pictureBackground = "";
 		picture = "";
@@ -502,9 +502,9 @@ class CfgDebriefing
 	
 	class Abort
 	{
-		title = "Auf Wiedersehen";
+		title = "Zapraszamy ponownie";
 		subtitle = "www.altisland.pl";
-		description = "Wir hoffen das du uns erneut besuchst.<br/>Check doch mal unsere Website auf www.altisland.pl";
+		description = "Mamy nadzieję, że odwiedzisz nas ponownie.<br/>Zapraszamy na www.altisland.pl";
 		pictureBackground = "textures\allgemein\bilder\Logo.jpg";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
@@ -512,7 +512,7 @@ class CfgDebriefing
 
 class Bugusing
 	{
-		title = "Wurdest erwischt!";
+		title = "Oszukujesz!";
 		subTitle = "www.altisland.pl";
 		description = "You were detected for cheating(Injection with memory editor) and have been reported to the server. Enjoy your day.";
 		pictureBackground = "";
@@ -522,8 +522,8 @@ class Bugusing
 
 	class ByeBye
 	{
-		title = "Bis zum nächsten Mal";
-		subtitle = "Spielerdaten erfolgreich gespeichert";
+		title = "Do następnego razu";
+		subtitle = "Dane zapisane";
 		description = "";
 		pictureBackground = "";
 		picture = "";
@@ -532,7 +532,7 @@ class Bugusing
 
 	class KeineSlots
 	{
-		title = "Mission Fehlgeschlagen";
+		title = "misja nie powiodła się";
 		subtitle = "Fehler beim Laden der Map.";
 		description = "Es Gab keinen Freien Slot gehe zurück in die Lobby und versuche es erneut!";
 		pictureBackground = "";
@@ -542,7 +542,7 @@ class Bugusing
 
 	class KeinRebelle
 	{
-		title = "Mission Fehlgeschlagen";
+		title = "misja nie powiodła się";
 		subtitle = "Du bist kein Rebell";
 		description = "Du bist kein Rebell. Die Rebellenlizenz erhälst du in der Rebellen Stad.";
 		pictureBackground = "";
@@ -552,7 +552,7 @@ class Bugusing
 
 	class DubistRebelle
 	{
-		title = "Mission Fehlgeschlagen";
+		title = "misja nie powiodła się";
 		subtitle = "Du bist ein Rebelle";
 		description = "Benutze die OPFOR Rollen um ein Rebelle zu sein.";
 		pictureBackground = "";

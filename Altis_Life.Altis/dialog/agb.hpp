@@ -47,7 +47,7 @@ class agb
  idc = -1;
  colorBackground[] = {0, 0, 0, 0};
  sizeEx = 0.0001;
- text = "<t size = '0.8'>Nietolerowane zachowanie ggf. grozi banem<br / >§1: Hakowanie / Oszukiwanie / Duping / Obra¿anie<br / >§1.1: Batellog.<br / >§1.2: B³êdy zg³oœ administracji<br / ><br / >§2: RP jest tu priorytetem wiêc graj RP!<br / ><br / >§3: RDM / VDM jest natychmiast karane .<br / ><br / >Kontakt: <br / >TS³ ts3.altisland.pl<br / >Homepage www.Altisland.pl<br / >Altis Life Team: <br / >Acid <br / ><br / >Uwaga: Jesteœ zainteresowany prac¹ w Medykach i policji oraz wzmocnienie naszego zespo³u pomocy technicznej. Aplikacje Forum.<br / ></t> <t font ='PuristaBold' size='0.9'>Aby graæ na serwerze AltisLand Best, w którym zasady te zgadzaj¹ siê i zobowi¹zuj¹ siê do ich przestrzegania nale¿y przeczytaæ i zrozumieæ na Forum.</t>";
+ text = "<t size = '0.8'>Nietolerowane zachowanie ggf. grozi banem<br / >§1: Hakowanie / Oszukiwanie / Duping / Obrazanie<br / >§1.1: Batellog.<br / >§1.2: Bledy zg³os administracji<br / ><br / >§2: RP jest tu priorytetem wiec graj RP!<br / ><br / >§3: RDM / VDM jest natychmiast karany .<br / ><br / >Kontakt: <br / >TS ts3.altisland.pl<br / >Homepage www.Altisland.pl<br / >Altis Life Team: <br / >Acid <br / ><br / >Uwaga: Jestes zainteresowany prac¹ Medyka i Policjanta oraz wzmocnienie naszego zespo³u pomocy technicznej. Aplikacje Forum.<br / ></t> <t font ='PuristaBold' size='0.9'>Aby grac na serwerze AltisLand Best, zobowiazujesz sie do przestrzegania zasad. Regulamin pelny na forum.</t>";
  x = 0.1125;
  y = 0.16;
  w = 0.775;

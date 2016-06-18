@@ -2,7 +2,7 @@ waitUntil {!isNull player && player == player};
 if(player diarySubjectExists "rules")exitwith{};
 
 player createDiarySubject ["spacer1","———————"];
-player createDiarySubject ["Island_of_Liberty_Info","AltisLand Info"];
+player createDiarySubject ["changelog","AltisLand Info"];
 player createDiarySubject ["spacer2","———————"];
 player createDiarySubject ["rules","Regulamin"];
 player createDiarySubject ["spacer2","———————"];
@@ -29,7 +29,7 @@ player createDiaryRecord ["spacer1",
 //---------------------------------------------------//
 
 
-player createDiaryRecord ["Island_of-Liberty_Info",
+player createDiaryRecord ["changelog",
 	[
 		"WWW",
 "
@@ -41,7 +41,7 @@ Zapraszamy na nasze forum.
 		]
 	];
 	
-player createDiaryRecord ["Island_of_Liberty_Info",
+player createDiaryRecord ["changelog",
 	[
 		"Lanczer",
 "
@@ -57,7 +57,7 @@ Brak:<font color='#af4545'>www.altisland.pl</font><br/><br/>
 	
 	
 	
-player createDiaryRecord ["Island_of_Liberty_Info",
+player createDiaryRecord [changelog",
 	[
 		"TeamSpeak 3",
 "
@@ -71,7 +71,7 @@ player createDiaryRecord ["Island_of_Liberty_Info",
 
 	
 	
-player createDiaryRecord ["Island_of_Liberty_Info",
+player createDiaryRecord ["changelog",
 	[
 		"Unterstzen",
 "

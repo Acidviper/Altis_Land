@@ -8,14 +8,14 @@ private["_text2","_result2"];
 
 0 cutText["","BLACK OUT"];
 sleep 1;
-_text2 = parseText format ["<t><t size='1.35'>Waffenschein<br/><br/></t><t size='1.15'>%1,<br/></t><t><t size='1'>Wenn du deine Waffe benutzt ohne vorher einen Sprachdialog (Eine RP Aufforderung) geführt zu haben wirst du von einem Admin bestraft!<br/><br/></t>",name player];
+_text2 = parseText format ["<t><t size='1.35'>Pozwolenie na bron<br/><br/></t><t size='1.15'>%1,<br/></t><t><t size='1'>Jeœli u¿ywasz broni bez uprzedniego uprzedzenia ( RP) bêdzie to karane przez administratora!<br/><br/></t>",name player];
 _result2 = [_text2, false,"Verstanden", false] call BIS_fnc_guiMessage;	
 sleep 1;
-_text2 = parseText format ["<t><t size='1.35'>Waffenschein<br/><br/></t><t size='1.15'>%1,<br/></t><t><t size='1'>Das gemeinsame überfallen (Ebenfalls nur erlaubt nach einer RP Aufforderung!) ist nur gestattet wenn ihr denselben Clan Tag oder Nachnamen habt!<br/><br/></t>",name player];
+_text2 = parseText format ["<t><t size='1.35'>Pozwolenie na bron<br/><br/></t><t size='1.15'>%1,<br/></t><t><t size='1'>Stosuj sie do RP!<br/><br/></t>",name player];
 _result2 = [_text2, false,"Verstanden", false] call BIS_fnc_guiMessage;	
 sleep 1;
 playsound "made_it";
-hint "Du hast es geschafft!"; 
+hint "Ukonczyles!"; 
 license_civ_gun = true;
 0 cutText ["","BLACK IN"];*/
 
@@ -29,16 +29,16 @@ waffenschein_firsthit = false;
 
 execvm "scripts\license\tests\troller_prevent.sqf";
 
-		if ( _sWeap != "" || _pWeap != "" || _hWeapon != "" ) exitwith { hint "Du musst alle Waffen vorher ablegen!";};
+		if ( _sWeap != "" || _pWeap != "" || _hWeapon != "" ) exitwith { hint "Musisz umieœciæ wszystkie bronie przed!";};
 
 		waffenschein_regal addWeaponCargoGlobal ["hgun_Rook40_F",1];
 		waffenschein_regal addMagazineCargoGlobal ["16Rnd_9x21_Mag", 5];
 
-		hintsilent "Beim verlassen des Schussbereichs (eingerahmt mit Holz) wird diese Preufung abgebrochen!";
+		hintsilent "Gdy strzelisz w inne miejsce (w ramce z drewna), test zostaje przerwany!";
 
 		sleep 5;
 
-		hintsilent "Nimm dir zu erst die Waffe aus der Kiste. Wir fangen mit kleinen an.";
+		hintsilent "Wyjmij broñ z pude³ka. Zaczynamy od ma³ych.";
 
 
 		_pist = true;
@@ -55,9 +55,9 @@ execvm "scripts\license\tests\troller_prevent.sqf";
 		waituntil { sleep 1; wait_1 };
 		
 		sleep 2;
-		hint "Nun wird das Gelaende aufgebaut... einen Moment eben.";
+		hint "Przygotuj sie.";
 		sleep 5;
-		hint "Es werden Gleich einige Ziele erscheinen... Feuere auf sie, erst wenn ein Ziel gelegt ist, wird das naechste aktiviert!";
+		hint "Traf w cele!";
 		sleep 2;
 		waffen_target1 = "TargetP_Zom_F" createvehicle (getmarkerpos "waffen_target_1");
 		waffen_target1 addEventHandler ["HitPart",  { waffenschein_firsthit = true;} ];
@@ -73,7 +73,7 @@ execvm "scripts\license\tests\troller_prevent.sqf";
 		
 		
 		waffenschein_firsthit = false;
-		hint "Sehr Gut! Die 8 Ziele werden nun wahllos erscheinen... du hast nun auch eine Zeitbegrenzung. von 30 sek.";
+		hint "8 punktów 30 sek.";
 		sleep 7;
 		nul = execvm "scripts\license\tests\waffenschein_count.sqf";
 		deletevehicle waffen_target1;

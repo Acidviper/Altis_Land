@@ -12,7 +12,7 @@ while { !waffenschein_best } do {
 	_timer = _timer -1;
 	
 	if (_timer < 1 ) exitwith {};
-	hintsilent format ["Noch %1 Sekunden...", _timer];
+	hintsilent format ["Zostalo %1 Sekund...", _timer];
 	
 	sleep 1;
 
@@ -21,10 +21,10 @@ while { !waffenschein_best } do {
 if (waffenschein_best) then {
 /*
 playsound "made_it";*/
-hint "Du hast es geschafft!"; 
+hint "Udalo sie!"; 
 license_civ_gun = true;
 
 } else {
-hint "Du hast es leider nicht geschafft... Zeit abgelaufen..." 
+hint "Nie uda³o siê ... Czas up³yn¹³..." 
 
 };

@@ -117,13 +117,13 @@ _lightnings = {
 playSound "restart";
 hintsilent parsetext"<t size='1.5'>Uwaga! Dzień Sądu Ostatecznego (Serverrestart)</t><br/><br/><t size='1.3'>Do zobaczenia wkrótce</t>";
 uisleep 14;
-hintsilent parsetext"<t size='1.5'>Uwaga! Dzień Sądu Ostatecznego in</t><br/><br/><t size='2'>3</t>";
+hintsilent parsetext"<t size='1.5'>Uwaga! Dzień Sądu Ostatecznego</t><br/><br/><t size='2'>3</t>";
 playsound "alarm";
 uisleep 1;
-hintsilent parsetext"<t size='1.5'>Uwaga! Dzień Sądu Ostatecznego in</t><br/><br/><t size='2'>2</t>";
+hintsilent parsetext"<t size='1.5'>Uwaga! Dzień Sądu Ostatecznego</t><br/><br/><t size='2'>2</t>";
 playsound "alarm";
 uisleep 1;
-hintsilent parsetext"<t size='1.5'>Uwaga! Dzień Sądu Ostatecznego in</t><br/><br/><t size='2'>1</t>";
+hintsilent parsetext"<t size='1.5'>Uwaga! Dzień Sądu Ostatecznego</t><br/><br/><t size='2'>1</t>";
 playsound "alarm";
 uisleep 1;
 hintsilent "";

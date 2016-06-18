@@ -117,7 +117,7 @@ class WeaponShops {
     };
 	
 	class schwarzwaffenladen {
-        name = "Schwarzmarkt Waaffenhaendler";
+        name = "Czarny Market";
         side = "civ";
         license = "schwarzwaffen";
         level[] = { "", "", -1, "" };
@@ -195,7 +195,7 @@ class WeaponShops {
     };
 
     class gang {
-        name = "Hideout Armament";
+        name = "Kryjówka Gangu";
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
@@ -285,10 +285,10 @@ class WeaponShops {
     //Cop Shops
 	
 	class cop_genstore {
-        name = "Einsatzausrüstung";
+        name = "Wyposażenie";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 1, "Du bist kein Polizei Mitglied" };
+        level[] = { "life_coplevel", "SCALAR", 1, "Nie jesteś członkiem policji" };
         items[] = {
             { "Binocular", "", 150, -1 },
             { "ItemGPS", "", 100, -1 },
@@ -308,10 +308,10 @@ class WeaponShops {
     };
 	
 	class cop_praktikant {
-        name = "Polizei Praktikant Dienstwaffen";
+        name = "Praktykant";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 1, "Du bist kein Praktikant" };
+        level[] = { "life_coplevel", "SCALAR", 1, "Nie jesteś Praktykantem" };
         items[] = {
             { "hgun_P07_snds_F", "Taser Pistol", 2000, -1 }
         };
@@ -328,10 +328,10 @@ class WeaponShops {
     };
 	
 	class cop_anwaerter {
-        name = "Polizei Anwaerter Dienstwaffen";
+        name = "Kadet";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 2, "Du bist kein Anwaerter" };
+        level[] = { "life_coplevel", "SCALAR", 2, "Nie jesteś Kadetem" };
         items[] = {
             { "arifle_MXC_F", "Taser Gewehr", 25000, -1 },
             { "hgun_P07_snds_F", "Taser Pistol", 2000, -1 }
@@ -345,16 +345,16 @@ class WeaponShops {
         };
         mags[] = {
             { "30Rnd_65x39_caseless_mag", "", 130 },
-			{ "30Rnd_65x39_caseless_mag", "Taser Gewehr Munition", 45 },
+			{ "30Rnd_65x39_caseless_mag", "Taser", 45 },
             { "30Rnd_9x21_Mag", "", 150 }
         };
     };
 
     class cop_wachtm {
-        name = "Polizeiwachtmeister Dienstwaffen";
+        name = "Sierżant";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 3, "Du bist kein Watchmeister" };
+        level[] = { "life_coplevel", "SCALAR", 3, "Nie jesteś Sierżantem" };
         items[] = {
             { "arifle_MXC_F", "Taser Gewehr", 25000, -1 },
             { "hgun_P07_snds_F", "Taser Pistol", 2000, -1 },
@@ -377,7 +377,7 @@ class WeaponShops {
         mags[] = {
 			{ "16Rnd_9x21_Mag", "", 25, -1 },
 			{ "20Rnd_762x51_Mag", "", 80, -1 },
-            { "30Rnd_65x39_caseless_mag", "Taser Gewehr Munition", 45, -1 },
+            { "30Rnd_65x39_caseless_mag", "Taser", 45, -1 },
 			{ "30Rnd_65x39_caseless_mag", "Gummi Munition", 60, -1 },
             { "30Rnd_65x39_caseless_mag", "", 130, -1 },
             { "30Rnd_9x21_Mag", "", 250, -1 }
@@ -385,10 +385,10 @@ class WeaponShops {
     };
 
     class cop_kommissar {
-        name = "Polizeikommissar Dienstwaffen";
+        name = "Komisarz";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 4, "Du bist kein Kommissar" };
+        level[] = { "life_coplevel", "SCALAR", 4, "Nie jesteś Komisarzem" };
         items[] = {
             { "arifle_MXC_F", "Taser Gewehr", 25000, -1 },
             { "hgun_P07_snds_F", "Taser Pistol", 2000, -1 },
@@ -420,7 +420,7 @@ class WeaponShops {
             { "9Rnd_45ACP_Mag", "", 45, -1 },
 			{ "16Rnd_9x21_Mag", "", 25, -1 },
 			{ "20Rnd_762x51_Mag", "", 80, -1 },
-            { "30Rnd_65x39_caseless_mag", "Taser Gewehr Munition", 45, -1 },
+            { "30Rnd_65x39_caseless_mag", "Taser", 45, -1 },
 			{ "30Rnd_65x39_caseless_mag", "Gummi Munition", 60, -1 },
             { "30Rnd_9x21_Mag", "", 60, -1 },
             { "30Rnd_65x39_caseless_mag", "", 100, -1, -1 },
@@ -430,10 +430,10 @@ class WeaponShops {
     };
 	
 	class cop_oberk {
-        name = "Polizeioberkommissar Einsatzwaffen";
+        name = "Porucznik";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 5, "Du bist kein Oberkommissar" };
+        level[] = { "life_coplevel", "SCALAR", 5, "Nie jesteś Porucznikiem" };
         items[] = {
             { "arifle_MXC_F", "Taser Gewehr", 25000, -1 },
             { "hgun_P07_snds_F", "Taser Pistol", 2000, -1 },
@@ -482,10 +482,10 @@ class WeaponShops {
     };
 	
 	class cop_hauptkom {
-        name = "Polizeihauptkommissar Einsatzwaffen";
+        name = "Zastepca Komendanta";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 6, "Du bist kein Hauptkommissar" };
+        level[] = { "life_coplevel", "SCALAR", 6, "Nie możesz tu kupowac" };
         items[] = {
             { "arifle_MXC_F", "Taser Gewehr", 25000, -1 },
             { "hgun_P07_snds_F", "Taser Pistol", 2000, -1 },
@@ -526,7 +526,7 @@ class WeaponShops {
             { "9Rnd_45ACP_Mag", "", 45, -1 },
 			{ "16Rnd_9x21_Mag", "", 25, -1 },
 			{ "20Rnd_762x51_Mag", "", 80, -1 },
-            { "30Rnd_65x39_caseless_mag", "Taser Gewehr Munition", 45, -1 },
+            { "30Rnd_65x39_caseless_mag", "Taser", 45, -1 },
 			{ "30Rnd_65x39_caseless_mag", "Gummi Munition", 60, -1 },
 			{ "100Rnd_65x39_caseless_mag", "", 160, -1 },
             { "30Rnd_9x21_Mag", "", 60, -1 },
@@ -539,10 +539,10 @@ class WeaponShops {
     };
 	
 	class cop_bundescop {
-        name = "Bundespolizist Dienstwaffen";
+        name = "Komendant";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 7, "Du bist kein Bundespolizist" };
+        level[] = { "life_coplevel", "SCALAR", 7, "Nie jestes Komendantem" };
         items[] = {
             { "arifle_MXC_F", "Taser Gewehr", 25000, -1 },
             { "hgun_P07_snds_F", "Taser Pistol", 2000, -1 },
@@ -604,7 +604,7 @@ class WeaponShops {
 	
 	
 class cop_sek {
-        name = "SEK Einsatzmittel";
+        name = "AT";
         side = "cop";
         license = "sek";
         level[] =  { -1, -1, -1, -1 };
@@ -678,7 +678,7 @@ class cop_sek {
     };
 	
 	class cop_kripo {
-        name = "Kripo Dienstwaffen";
+        name = "Broń sluzbowa";
         side = "cop";
         license = "kripo";
         level[] =  { -1, -1, -1, -1 };
@@ -735,10 +735,10 @@ class cop_sek {
     };
 	
 	class cop_chefstv {
-        name = "Dienstwaffen Polizei Leitung";
+        name = "Brońxxx";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 8, "Du bist nicht in der Leitung" };
+        level[] = { "life_coplevel", "SCALAR", 8, "Nie mozesz tego uzywac" };
         items[] = {
             { "arifle_MXC_F", "Taser Gewehr", 25000, -1 },
             { "hgun_P07_snds_F", "Taser Pistol", 2000, -1 },
@@ -803,10 +803,10 @@ class cop_sek {
     };
 	
 	class cop_chef {
-        name = "Dienstwaffen Polizei Leitung";
+        name = "Bron sluzbowax";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 9, "Du bist in der Leitung" };
+        level[] = { "life_coplevel", "SCALAR", 9, "nie mozesz tego uzywac" };
         items[] = {
             { "arifle_MXC_F", "Taser Gewehr", 25000, -1 },
             { "hgun_P07_snds_F", "Taser Pistol", 2000, -1 },

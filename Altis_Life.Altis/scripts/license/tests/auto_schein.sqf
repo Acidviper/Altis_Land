@@ -28,14 +28,14 @@ while {_test_prog} do{
    if ((getdammage vehicle player) >=0.05 || vehicle player == player) then {
        _test_prog = false;
        deletevehicle _wall;
-	   hint "Versuche es nochmal..."; _vehicle setDamage 0.5; sleep 8; deletevehicle _vehicle; deletevehicle _wall; player setPos current_position_p;
+	   hint "Spróbuj ponownie..."; _vehicle setDamage 0.5; sleep 8; deletevehicle _vehicle; deletevehicle _wall; player setPos current_position_p;
 					license_car_in_use =  false;
 					publicVariable "license_car_in_use";
    };
    //COUNTER
 	_counter = _counter + 1;
-	hintSilent  format ["Verstrichene Zeit: %1 sek. / 60sek.", _counter];
-	if (_counter >= 60) exitwith { hint "Zeit zu ende! Versuche es nochmal..."; _vehicle setDamage 0.5; sleep 8; deletevehicle _vehicle; deletevehicle _wall; player setPos current_position_p;
+	hintSilent  format ["Poczekaj: %1 sek. / 60sek.", _counter];
+	if (_counter >= 60) exitwith { hint "Czas sie skonczyl! Spróbuj ponownie..."; _vehicle setDamage 0.5; sleep 8; deletevehicle _vehicle; deletevehicle _wall; player setPos current_position_p;
 					_test_prog = false;
 					license_car_in_use =  false;
 					publicVariable "license_car_in_use";
@@ -44,7 +44,7 @@ while {_test_prog} do{
    if (((vehicle player distance (getMarkerPos "car_license_spawn_wall")) <= 8) && _proof) then {
        _passed = true;
        _test_prog = false;
-	   hint "Du hast es geschafft! Du bekommst deine lizenz jetzt."; _vehicle setDamage 0.5; /*playsound "made_it";*/ license_civ_driver = true;
+	   hint "Udało ci się! Otrzymasz licencję."; _vehicle setDamage 0.5; /*playsound "made_it";*/ license_civ_driver = true;
 	   sleep 4;
 		deletevehicle _vehicle; deletevehicle _wall; player setPos current_position_p;
 		license_car_in_use =  false;

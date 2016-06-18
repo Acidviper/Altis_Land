@@ -109,86 +109,86 @@ class Life_Settings {
     /* Wanted System related settings */
     /* crimes[] = {String, Bounty, Code} */
     crimes[] = {
-		{"STR_Crime_1","25000","1"}, //fahren ohne führerschein pkw
-		{"STR_Crime_2","50000","2"}, //fahren ohne führerschein lkw
-		{"STR_Crime_3","20000","3"},  //Führen Boot ohne schein
-		{"STR_Crime_4","25000","4"},  //Fahren ohne Beleuchtung
-		{"STR_Crime_5","75000","5"}, //Fahren unter Drogeneinfluss
-		{"STR_Crime_6","25000","6"}, //Verursachen eines Unfall
-		{"STR_Crime_7","50000","7"}, //Verursachen eines Unfall mit Personenschaden
-		{"STR_Crime_8","100000","8"},  //Fahrerflucht
-		{"STR_Crime_9","200000","9"}, //Fahren Abseits von Oeffentlichen Wegen
-		{"STR_Crime_10","55000","10"}, //Fliegen ohne Pilotenschein
-		{"STR_Crime_11","200000","11"}, //Landen ausserhalb der Landeplaetzen
-		{"STR_Crime_12","100000","12"}, //Fliegen Ueber einer Stadt unter 250m/Hovern
-		{"STR_Crime_13","10000","13"}, //Fliegen ohne Kollisionsbeleuchtung
-		{"STR_Crime_14","15000","14"}, //10 Km/h Geschwindigkeitsüberschreitung
-		{"STR_Crime_15","25000","15"}, //20 Km/h Geschwindigkeitsüberschreitung
-		{"STR_Crime_16","50000","16"}, //50 Km/h Geschwindigkeitsüberschreitung
-		{"STR_Crime_17","100000","17"}, //70 Km/h Geschwindigkeitsüberschreitung
-		{"STR_Crime_18","150000","18"}, //100 Km/h Geschwindigkeitsüberschreitung
-		{"STR_Crime_19","17500","19"}, //Fuehren eines Karts ausserhalb der Rennstrecke
-		{"STR_Crime_20","50000","20"}, //Grundlos Anlegen von Handschellen
-		{"STR_Crime_21","17500","21"}, //Unberechtigtes Durchsuchen eines Fahrzeugs
-		{"STR_Crime_22","15000","22"}, //Unberechtigte Durchsuchung einer Person
-		{"STR_Crime_23","50000","23"}, //Unberechtigter Einsatz von Mannstopwaffen (Tazer)
-		{"STR_Crime_24","150000","24"}, //Unberechtigter Einsatz von Schusswaffen (scharfe Munition)
-		{"STR_Crime_25","50000","25"}, //Unberechtigter Einsatz von Warnsignalen (Sirene/Blaulicht)
-		{"STR_Crime_26","1000000","26"}, //Korruption
-		{"STR_Crime_27","25000","27"}, //Nicht Einhalten der Ausweispflicht
-		{"STR_Crime_28","75000","28"}, //Nicht diensttaugliches Verhalten (Beleidigung, etc.)
-		{"STR_Crime_29","100000","29"}, //Nicht Einhalten der Dienstvorschriften (Rangberechtigungen)
-		{"STR_Crime_30","50000","30"}, //Körperverletzung durch Schusswaffen gebrauch (1§ Abs. 5)
-		{"STR_Crime_31","150000","31"}, //Körperverletzung mit Todesfolge durch Schusswaffen gebrauch (1§ Abs. 5)
-		{"STR_Crime_32","25000","32"}, //Körperverletzung durch Mannstopwaffen gebrauch (1§ Abs. 4)
-		{"STR_Crime_33","20000","33"}, //Verweigerung der Nahrungsaufnahme bei Gefangenen
-		{"STR_Crime_34","17500","34"}, //Drogen im Haus
-		{"STR_Crime_35","25000","35"}, //Drogen im LKW/Hellikopter
-		{"STR_Crime_36","25000","36"}, //Drogen im PKW
-		{"STR_Crime_37","17000","37"}, //Drogen in Wasserfahrzeuge
-		{"STR_Crime_38","25000","38"}, //Drogen im Rucksack
-		{"STR_Crime_39","150000","39"}, //Drogenhandel / Verkauf
-		{"STR_Crime_40","25000","40"}, //Versuchter Diebstahl eines KfZ / Heli / Flugzeug / Boot
-		{"STR_Crime_41","50000","41"}, //Diebstahl eines KfZ / Heli / Flugzeug / Boot
-		{"STR_Crime_42","75000","42"}, //Raub
-		{"STR_Crime_43","50000","43"}, //Bestechung
-		{"STR_Crime_44","250000","44"}, //Bankraub
-		{"STR_Crime_45","150000","45"}, //Erpressung
-		{"STR_Crime_46","100000","46"}, //Tankstellenraub
-		{"STR_Crime_47","100000","47"}, //Errichten einer illegalen Straßenblockade
+		{"STR_Crime_1","25000","1"}, //jazda samochodem bez licencji
+		{"STR_Crime_2","50000","2"}, //jazda ciężarówką bez licencji
+		{"STR_Crime_3","20000","3"},  //pływanie bez licencji
+		{"STR_Crime_4","25000","4"},  //Jazda bez świateł
+		{"STR_Crime_5","75000","5"}, //Jazda po pijanemu
+		{"STR_Crime_6","25000","6"}, //Spowodowanie wypadku
+		{"STR_Crime_7","50000","7"}, //Spowodowanie wypadku z udziałem ludzi
+		{"STR_Crime_8","100000","8"},  //ucieczka z miejsca wypadku
+		{"STR_Crime_9","200000","9"}, //jazda poza drogą publiczną
+		{"STR_Crime_10","55000","10"}, //latanie bez licencji pilota
+		{"STR_Crime_11","200000","11"}, //lądowania poza miejscem wyznaczonym
+		{"STR_Crime_12","100000","12"}, //zawisnięcie nad miastem ponizej 150m
+		{"STR_Crime_13","10000","13"}, //latanie bez świateł kolizyjnych
+		{"STR_Crime_14","15000","14"}, //10 km / h powyżej prędkości
+		{"STR_Crime_15","25000","15"}, //20 km / h powyżej prędkości
+		{"STR_Crime_16","50000","16"}, //50 km / h powyżej prędkości
+		{"STR_Crime_17","100000","17"}, //70 km / h powyżej prędkości
+		{"STR_Crime_18","150000","18"}, //100 km / h powyżej prędkości
+		{"STR_Crime_19","17500","19"}, //jazda gokartem
+		{"STR_Crime_20","50000","20"}, //posiadanie kajdanek
+		{"STR_Crime_21","17500","21"}, //Okradanie pojazdu
+		{"STR_Crime_22","15000","22"}, //obrabowanie
+		{"STR_Crime_23","50000","23"}, //Nieuprawnione użycie broni(tazer)
+		{"STR_Crime_24","150000","24"}, //Nieuprawnione użycie broni palnej
+		{"STR_Crime_25","50000","25"}, //nieuprawnione użycie syren
+		{"STR_Crime_26","1000000","26"}, //korupcja
+		{"STR_Crime_27","25000","27"}, //niezgodnosc danych w dowodzie
+		{"STR_Crime_28","75000","28"}, //obrażanie itp
+		{"STR_Crime_29","100000","29"}, //Brak uprawnień
+		{"STR_Crime_30","50000","30"}, //Postrzelenie
+		{"STR_Crime_31","150000","31"}, //Przemoc powodując śmierć przez użycie broni palnej
+		{"STR_Crime_32","25000","32"}, //wielokrotna śmierć przez użycie broni palnej
+		{"STR_Crime_33","20000","33"}, //odmowa jedzenia w więzieniu
+		{"STR_Crime_34","17500","34"}, //narkotyki w domu
+		{"STR_Crime_35","25000","35"}, //Dnarkotyki w samochodzie / Hellikopter
+		{"STR_Crime_36","25000","36"}, //narkotyki w samochodzie
+		{"STR_Crime_37","17000","37"}, //narkotyki w łodzi
+		{"STR_Crime_38","25000","38"}, //Narkotyki w plecaku
+		{"STR_Crime_39","150000","39"}, //handel narkotykami / sprzedaż
+		{"STR_Crime_40","25000","40"}, //próba kradzieży pojazdu
+		{"STR_Crime_41","50000","41"}, //kradzież pojazdu
+		{"STR_Crime_42","75000","42"}, //rozbój
+		{"STR_Crime_43","50000","43"}, //przekupstwo
+		{"STR_Crime_44","250000","44"}, //napad na bank
+		{"STR_Crime_45","150000","45"}, //wymuszenia
+		{"STR_Crime_46","100000","46"}, //napad na stacje 
+		{"STR_Crime_47","100000","47"}, //nielegalne blokady
 		{"STR_Crime_48","150000","48"}, //Besitz von Polizeimittel
-		{"STR_Crime_49","200000","49"}, //Besitz illegaler Gegenstände	
-		{"STR_Crime_50","75000","50"}, //Führen einer Waffe ohne Lizenz
-		{"STR_Crime_51","100000","51"}, //Mit gezogener Waffe durch Städte laufen
-		{"STR_Crime_52","150000","52"}, //Besitz einer illegalen Waffe
-		{"STR_Crime_53","100000","53"}, //Besitz einer Langwaffe
-		{"STR_Crime_54","50000","54"}, //Besitz von Magazinen für eine illegale Waffe
-		{"STR_Crime_55","75000","55"}, //Schusswaffengebrauch innerorts
-		{"STR_Crime_56","75000","56"}, //Waffenhandel aktiv betreiben
-		{"STR_Crime_57","50000","57"}, //Waffenhandel passiv betreiben
-		{"STR_Crime_58","50000","58"}, //Körperverletzung
-		{"STR_Crime_59","75000","59"}, //Körperverletzung mit Todesfolge 
-		{"STR_Crime_60","125000","60"}, //Freiheitsberaubung
-		{"STR_Crime_61","25000","61"}, //Belästigung
-		{"STR_Crime_62","150000","62"}, //Geiselnahme
-		{"STR_Crime_63","200000","63"}, //Drohung
-		{"STR_Crime_64","500000","64"}, //versuchter Mord
+		{"STR_Crime_49","200000","49"}, //posiadanie nielegalnych przedmiotów	
+		{"STR_Crime_50","75000","50"}, //broń bez licencji
+		{"STR_Crime_51","100000","51"}, //chodzenie z wyciągniętą bronią
+		{"STR_Crime_52","150000","52"}, //posiadanie nielegalnej broni
+		{"STR_Crime_53","100000","53"}, //posiadanie długiego pistoletu
+		{"STR_Crime_54","50000","54"}, //osiadanie nielegalnych magazynków
+		{"STR_Crime_55","75000","55"}, //bron palna w mieście
+		{"STR_Crime_56","75000","56"}, //handel bronią
+		{"STR_Crime_57","50000","57"}, //handel bronią biernie
+		{"STR_Crime_58","50000","58"}, //spowodowanie urazu cywila
+		{"STR_Crime_59","775000","59"}, //morderstwo
+		{"STR_Crime_60","125000","60"}, //ucieczka z więzienia
+		{"STR_Crime_61","25000","61"}, //molestowanie
+		{"STR_Crime_62","150000","62"}, //porwanie
+		{"STR_Crime_63","200000","63"}, //zagrożenie
+		{"STR_Crime_64","500000","64"}, //usiłowanie zabójstwa
 		{"STR_Crime_65","1000000","65"}, //Mord
-		{"STR_Crime_66","100000","66"}, //fahrlässige Tötung		
-		{"STR_Crime_67","250000","67"}, //Anstiftung zum Mord
-		{"STR_Crime_68","75000","68"}, //missachtung polizeilicher Anweisung
-		{"STR_Crime_69","100000","69"}, //Widerstand gegen die Staatsgewalt
-		{"STR_Crime_70","50000","70"}, //Behinderung eines Beamten bei der Ausführung seiner Arbeit
-		{"STR_Crime_71","50000","71"}, //Belästigung/Beleidigung eines Beamten
-		{"STR_Crime_72","75000","72"}, //Betreten von Sperrzonen ohne Genehmigung / Nicht Einhalten Platzverweis
-		{"STR_Crime_73","50000","73"}, //Durchbrechen von Absperrungen
-		{"STR_Crime_74","55000","74"}, //nicht einhalten des Vermummungsverbots
-		{"STR_Crime_75","50000","75"}, //Unangemeldete Versammlung für eine Sache
-		{"STR_Crime_76","150000","76"}, //Amtsanmaßung
-		{"STR_Crime_77","200000","77"}, //Missbrauch des Notrufs
-		{"STR_Crime_78","100000","78"}, //Sachbeschädigung		
-		{"STR_Crime_79","200000","79"}, //Gefaengnisausbruch
-		{"STR_Crime_80","150000","80"}, //Beihilfe Gefaengnisausbruch	
+		{"STR_Crime_66","100000","66"}, //nieumyślne spowodowanie śmierci		
+		{"STR_Crime_67","250000","67"}, //podżegania do morderstwa
+		{"STR_Crime_68","75000","68"}, //lekceważenie policji
+		{"STR_Crime_69","100000","69"}, //powalenie
+		{"STR_Crime_70","50000","70"}, //przeszkadzanie pol/med w wykonywaniu pracy
+		{"STR_Crime_71","50000","71"}, //molestowanie / obrażanie
+		{"STR_Crime_72","75000","72"}, //wchodzące do stref zamkniętych bez pozwolenia
+		{"STR_Crime_73","50000","73"}, //przekroczenie bariery
+		{"STR_Crime_74","55000","74"}, //trolowanie
+		{"STR_Crime_75","50000","75"}, //hm
+		{"STR_Crime_76","150000","76"}, //arogancja
+		{"STR_Crime_77","200000","77"}, //wywołanie awaryjnego alarmu
+		{"STR_Crime_78","100000","78"}, //uszkodzenia mienia		
+		{"STR_Crime_79","200000","79"}, //Ucieczka z więzienia
+		{"STR_Crime_80","150000","80"}, //Pomoc w ucieczce z więzieniea
 		{"STR_Crime_459","50000","459"},		
 		{"STR_Crime_919","200000","919"},		
 		{"STR_Crime_919A","150000","919A"}		

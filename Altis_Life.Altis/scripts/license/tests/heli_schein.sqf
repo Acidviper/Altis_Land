@@ -13,7 +13,7 @@ heli_schule_prog= true;
 
 
 
-hint "Dieser Test wird etwas anders, als die vorherigen Lizenz Tests. Deine Befehle und somit der gesamte Test, wird dir Schritt fuer Schritt angezeigt. Achte also stehts darauf. Dich wird sicher der Black Screen Ablenken, Dies beweist deine Konzentration.";
+hint "Test ten jest nieco inny niż w poprzednich testach licencyjnych.Skup sie.";
 
 
 sleep 15;
@@ -33,12 +33,12 @@ sleep 1;
 
 execvm "scripts\license\tests\troll_prevent.sqf";
 
-hint "Du kannst jederzeit aufgeben, dazu musst du nur landen und aussteigen.";
+hint "Możesz zrezygnować w każdej chwili.";
 
 sleep 2;
 
 while { heli_schule_prog } do {
-TitleText["Hebe zunaechst ab. Fliege auf eine Hoehe von 50 Metern. Halte diese fuer ein paar Sekunden.","BLACK FADED", 2];
+TitleText["Leć do wysokości 50 metrów. Trzymaj to na kilka sekund.","BLACK FADED", 2];
 sleep 5;
 titleFadeOut 2;
 
@@ -46,7 +46,7 @@ titleFadeOut 2;
 
 waituntil {sleep 3,((getPos heli1 select 2) >=49)};
 
-TitleText["Sehr gut, ich sehe du lernst schnell. Fliege zum naechsten Berg im Osten. Wenn du dir unsicher bist, schau auf die Karte.","BLACK FADED", 2];
+TitleText["Bardzo dobrze, widzę, że szybko się uczysz. Leć do najwyższej góry na wschodzie. Jeśli nie jesteś pewien, sprawdź na mapie.","BLACK FADED", 2];
 sleep 6;
 titleFadeOut 2;
 
@@ -63,7 +63,7 @@ ziel_marker= createMarkerLocal ["auftrags_ziel_marker", position player ];
 
 sleep 4;
 
-TitleText["Fliege nun dorthin wo der Pfeil ist. Halte eine Hoehe von etwa 10 Metern ueber ihm.","BLACK FADED", 2];
+TitleText["Leć teraz do miejsca, gdzie znajduje się strzałka. Trzymając wysokość około 10 metrów nad nim.","BLACK FADED", 2];
 sleep 3;
 titleFadeOut 2;
 
@@ -87,7 +87,7 @@ ziel_marker= createMarkerLocal ["auftrags_ziel_marker", position player ];
 "auftrags_ziel_marker" setMarkerTypeLocal "hd_WARNING"; 
 "auftrags_ziel_marker" setMarkerSize [1, 1];
 
-TitleText["Dieser Wagen hat sich ein wenig verirrt und sollte wieder zum Haus kommen, also dort wo du los geflogen bist. Bring ihn dorthin wo der Pfeil ist.","BLACK FADED", 2];
+TitleText["Ten pojazd zboczył trochę i powinna wrócić do poczatku. Kieruj go tam, gdzie jest strzałka.","BLACK FADED", 2];
 sleep 10;
 titleFadeOut 2;
 
@@ -95,14 +95,14 @@ waituntil {sleep 3,(((getPos heli1 select 2) <=12) && (heli1 distance ( markerPo
 
 detach helitransp;
 
-TitleText["Wunderbar! Nun folgt deine letzte Aufgabe...","BLACK FADED", 2];
+TitleText["Swietnie. Teraz ostatnie zadanie...","BLACK FADED", 2];
 deleteMarkerLocal "auftrags_ziel_marker";
 deletevehicle heliarrow1;
 sleep 5;
 
 heliarrow1 = "Sign_Arrow_Large_F"  createVehicle (getMarkerPos "heli_kastro_last");
 
-TitleText["Fliege zur Burg von Kavala, dort ist wieder einer der Pfeile. Lande dort, das ganze aber innerhalb von 2 min.","BLACK FADED", 2];
+TitleText["Leć do zamku Kawala, istnieje jeszcze jedna ze strzałek.","BLACK FADED", 2];
 sleep 3;
 titleFadeOut 2;
 
@@ -114,7 +114,7 @@ _min = 0;
 while {flug_zum_kastro} do 
 {
 _counter = _counter + 1;
-if (_min >= 2) then {hint "Du hast den Test nicht bestanden, deine Zeit ist ausgelaufen..."; 
+if (_min >= 2) then {hint "Nie dzales egzaminu..."; 
 	deletevehicle heliarrow1;
 	deletevehicle helitransp;
 	sleep 8;
@@ -128,7 +128,7 @@ if (_min >= 2) then {hint "Du hast den Test nicht bestanden, deine Zeit ist ausg
 	flug_zum_kastro = false;
 	
 	};
-hintsilent format [ "Verstrichene Zeit:  %1 min.  %2 sek. ",_min,_counter ];
+hintsilent format [ "Pozostaly czas:  %1 min.  %2 sek. ",_min,_counter ];
 if ((((getPos heli1 select 2) <=12) && (heli1 distance ( markerPos "heli_kastro_last" ) <= 15))) then {
 flug_zum_kastro = false;
 heli_schule_gesch = true;
@@ -147,7 +147,7 @@ if ( heli_schule_gesch ) then {
 deletevehicle heliarrow1;
 deletevehicle helitransp;
 
-TitleText["Durchaus Beeindruckend... Damit hast du bestanden, lande hier noch eben. Warte bis du wieder am Lizenz-Amt bist.","BLACK FADED", 2];
+TitleText["Wspaniale. Odbierz swoja licencje w biurze.","BLACK FADED", 2];
 sleep 3;
 titleFadeOut 2;
 /*playsound "made_it";*/
@@ -162,7 +162,7 @@ titleText ["Deine Lizenz wird nun uebergeben!", "plain"]; titleFadeOut 4;
 license_civ_pilot = true;
 } else {
 
-hint "Aussteigen, gilt nicht. Wenn der Heli schaden hatte, ebenfalls nicht... Nicht bestanden!";
+hint "Uszkodzenie!";
 sleep 8;
 deletevehicle heli1;
 	license_heli_in_use =  false;

@@ -484,7 +484,7 @@ class CfgDebriefing
 	{
 		title = "misja nie powiodła się";
 		subtitle = "misja nie powiodła się";
-		description = "You are not allowed to use this slot because you do not have the appropriate permissions, try another slot.";
+		description = "nie jesteś na wl";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
@@ -494,7 +494,7 @@ class CfgDebriefing
 	{
 		title = "misja nie powiodła się";
 		subtitle = "Jesteś na czarnej liście policji";
-		description = "You are not allowed to be a cop due to previous actions and the admins have removed you from being a cop.";
+		description = "nie jestes na wl.";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
@@ -514,7 +514,7 @@ class Bugusing
 	{
 		title = "Oszukujesz!";
 		subTitle = "www.altisland.pl";
-		description = "You were detected for cheating(Injection with memory editor) and have been reported to the server. Enjoy your day.";
+		description = "Wykryliśmy oszustwo.";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};

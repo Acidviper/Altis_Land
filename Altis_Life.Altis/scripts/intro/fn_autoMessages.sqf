@@ -1,6 +1,6 @@
 [] spawn {
 	_messages = [ 
-		 "<br/><br/>Wir sind eine neue Altis Life und Multigaming Community <br/><br/>Jeśli masz pytania zapraszam na ts albo www <br/><br/> <t color='#FF0000' size='1.3'>www.altisland.pl</t>"
+		 "<br/><br/>Nasz nowy serwer <br/><br/>Jeśli masz pytania zapraszam na ts albo www <br/><br/> <t color='#FF0000' size='1.3'>www.altisland.pl</t>"
 	];
 
 	_refreshTime = 4500;

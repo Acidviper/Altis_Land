@@ -60,7 +60,7 @@ while {license_prog} do
 					"auftrags_ziel_marker" setMarkerTypeLocal "hd_WARNING"; 
 					"auftrags_ziel_marker" setMarkerTextLocal "Dein Ziel befindet sich hier";
 					"auftrags_ziel_marker" setMarkerSizeLocal [1, 1];
-					titleText ["DEIN ZIEL BEFINDET SICH NUN AUF DER KARTE! Am Strand, Im Norden von hier an...", "PLAIN"];
+					titleText ["Cel masz na mapie...", "PLAIN"];
 				};
 				
 				if ((player distance (getmarkerpos "boating_end")) < 10) then {
@@ -83,13 +83,13 @@ while {license_prog} do
 sleep 5;
 if (license_granted) then {
 	
-	titleText ["Lizenz erhalten, Glueckwunsch!", "PLAIN"];	
+	titleText ["Otrzymales licencje!", "PLAIN"];	
 	license_civ_boat = true;
 	/*playsound "made_it";*/
 
  } else {
 
-	hint "Du hast die Schule nicht beenden koennen, die Zeit ist abgelaufen oder aber du hast nicht alle Checkpoints erreicht! Versuchs nochmal...";
+	hint "Nie ukonczyles, czas upłynął lub nie osiągnoles wszystkich punktow kontrolnych! Spróbuj ponownie...";
 
 };
 

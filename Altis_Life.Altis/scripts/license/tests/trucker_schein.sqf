@@ -10,7 +10,7 @@ _ts_helpers = ["ts1","ts2","ts3","ts4","ts5","ts6","ts7","ts8","ts9","ts10","ts1
 	_ts_markers = _ts_markers + ["Sign_Arrow_Large_F" createVehicle (getMarkerPos _current)];
 }forEach _ts_helpers;
 
-hint "Fahre entlang der Markierten Pfeile, bis zur Fabrik. Dort wendest du, und machst dich auf den Weg zum anfangspunkt! Du hast 4 min Zeit.";
+hint "Jedź wzdłuż zaznaczonych strzałek, aż do fabryki. Masz 4 minuty czasu.";
 
 sleep 10;
 
@@ -38,9 +38,9 @@ _test_TruckProg = true;
 while {_test_TruckProg} do{
 ////////////////TIMER
 _counter = _counter + 1;
-hint format ["Verstrichene Zeit: %2 min. %1 sec.", _counter, _min];
+hint format ["Pozostalo czasu: %2 min. %1 sec.", _counter, _min];
 if (_counter >= 59) then { _min = _min+1; _counter = 0};
-	if (_min >= 4 && _counter >= 20) exitwith { _test_TruckProg = false; deleteVehicle _goal_singns; hint "Nicht Geschafft! Die Zeit ist abgelaufen, bitte bleib stehen, sonst kannst du dich verletzen."; _truck setDamage 0.5; sleep 5; deletevehicle _truck; player setPos current_position_p; 
+	if (_min >= 4 && _counter >= 20) exitwith { _test_TruckProg = false; deleteVehicle _goal_singns; hint "Czas uplynal."; _truck setDamage 0.5; sleep 5; deletevehicle _truck; player setPos current_position_p; 
 							
 						{							
 							_current = _x;
@@ -51,13 +51,13 @@ if (_counter >= 59) then { _min = _min+1; _counter = 0};
 ////////////////Wenden
    if ((vehicle player distance (getMarkerPos "ts17")) <= 8) then {
        _wenden = true;
-	   hint "Hier musst du nun wenden, danach gehts zurueck zum start punkt. Beeil dich!";
-	   titleText ["Hier musst du nun wenden, danach gehts zurueck zum start punkt. Beeil dich!", "PLAIN"]
+	   hint "Tutaj trzeba skręcić, a następnie wrocic do punktu startu. pospiesz się!";
+	   titleText ["Tutaj trzeba skręcić, a następnie wrocic do punktu startu. pospiesz się!", "PLAIN"]
    };
 ////////////////Bestanden
    if (((vehicle player distance (getMarkerPos "trucking_license_goal")) <= 8) && _wenden) then {
        _test_TruckProg = false;
-	   hint "Du hast es geschafft! Du bekommst deine lizenz jetzt.";
+	   hint "Udalo sie.";
 	   _truck setDamage 0.5; sleep 8; deletevehicle _truck; player setPos current_position_p;
 	   license_civ_trucking = true;
 	license_trucker_in_use =  false;

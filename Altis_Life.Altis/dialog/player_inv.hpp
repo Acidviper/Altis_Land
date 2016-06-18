@@ -491,7 +491,7 @@ class playerSettings {
 			color2[] = {-1,-1,-1,-1};
 			colorText[] = {-1,-1,-1,-1};
 			colorDisabled[] = {-1,-1,-1,-1};
-			tooltip = "Smartphon";
+			tooltip = "Smartphone";
 		};
 
 		class Licenses_menu: Life_RscControlsGroup

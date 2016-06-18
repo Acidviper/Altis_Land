@@ -31,7 +31,7 @@ class life_objekte {
         class Title : Life_RscTitle {
             colorBackground[] = {0, 0, 0, 0};
             idc = -1;
-            text = "Verfügbare Objekte";
+            text = "Dostępne obiekty";
             x = 0.1;
             y = 0.2;
             w = 0.6;
@@ -60,7 +60,7 @@ class life_objekte {
         
         class RemoveAll : life_RscButtonMenu {
             idc = -1;
-            text = "Aufräumen";
+            text = "Usuń";
             onButtonClick = "[] call life_fnc_objekteAufraeumen";
             x = 0.1 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
             y = 0.8 - (1 / 25);
@@ -70,7 +70,7 @@ class life_objekte {
         
         class Place : Life_RscButtonMenu {
             idc = -1;
-            text = "Platzieren";
+            text = "Miejsce";
             colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
             onButtonClick = "[] spawn life_fnc_setzen;";
             x = 0.32;

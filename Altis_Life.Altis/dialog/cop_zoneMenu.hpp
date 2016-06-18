@@ -31,7 +31,7 @@
         class Title : Life_RscTitle {
             colorBackground[] = {0, 0, 0, 0};
             idc = -1;
-            text = "Sperrzonen";
+            text = "Strefa zamknięta";
             x = 0.1;
             y = 0.2;
             w = 0.6;
@@ -50,7 +50,7 @@
 
         class CloseButtonKey : Life_RscButtonMenu {
             idc = -1;
-            text = "Schliessen";
+            text = "Blisko";
             onButtonClick = "closeDialog 0;";
             x = -0.06 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
             y = 0.8 - (1 / 25);
@@ -60,7 +60,7 @@
         
         class Create : Life_RscButtonMenu {
             idc = -1;
-            text = "Erstellen";
+            text = "Sporządź";
             colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
             onButtonClick = "closeDialog 0; createDialog ""life_cop_sperrzone_name"";";
             x = 0.11;
@@ -71,7 +71,7 @@
         
         class Remove : Life_RscButtonMenu {
             idc = 8002;
-            text = "Löschen";
+            text = "Przekreślenie";
             colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
             onButtonClick = "closeDialog 0; [lbData [8001, (lbCurSel 8001)]] call life_fnc_cop_zoneMenu_remove;";
             x             = 0.48;

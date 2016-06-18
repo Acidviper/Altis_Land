@@ -14,7 +14,7 @@ class setDeckname_dialog
 		{
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
 			idc = 100001;
-			text = "Bitte waehlen Sie Ihren Decknamen."; //--- ToDo: Localize;
+			text = "Proszę wybrać nazwę."; //--- ToDo: Localize;
 			x = 0.3425 * safezoneW + safezoneX;
 			y = 0.381875 * safezoneH + safezoneY;
 			w = 0.3325 * safezoneW;
@@ -32,7 +32,7 @@ class setDeckname_dialog
 		class setDeckname_Cancel: Life_RscButtonMenu//RscButtonMenuCancel
 		{
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-			text = "Abbrechen"; //--- ToDo: Localize;
+			text = "Przerwij"; //--- ToDo: Localize;
 			x = 0.36 * safezoneW + safezoneX;
 			y = 0.460625 * safezoneH + safezoneY;
 			w = 0.1225 * safezoneW;
@@ -42,7 +42,7 @@ class setDeckname_dialog
 		class setDeckname_accept: Life_RscButtonMenu//Life_RscButtonMenuCancel
 		{
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-			text = "Uebernehmen"; //--- ToDo: Localize;
+			text = "Weź"; //--- ToDo: Localize;
 			x = 0.535 * safezoneW + safezoneX;
 			y = 0.460625 * safezoneH + safezoneY;
 			w = 0.1225 * safezoneW;

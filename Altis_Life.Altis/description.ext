@@ -483,7 +483,7 @@ class CfgDebriefing
 	class NotWhitelisted
 	{
 		title = "misja nie powiodła się";
-		subtitle = "Du wurdest vom Dienst suspendiert";
+		subtitle = "misja nie powiodła się";
 		description = "You are not allowed to use this slot because you do not have the appropriate permissions, try another slot.";
 		pictureBackground = "";
 		picture = "";
@@ -533,8 +533,8 @@ class Bugusing
 	class KeineSlots
 	{
 		title = "misja nie powiodła się";
-		subtitle = "Fehler beim Laden der Map.";
-		description = "Es Gab keinen Freien Slot gehe zurück in die Lobby und versuche es erneut!";
+		subtitle = "Nie udało się załadować mapę.";
+		description = "Wróć do lobby!";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
@@ -543,8 +543,8 @@ class Bugusing
 	class KeinRebelle
 	{
 		title = "misja nie powiodła się";
-		subtitle = "Du bist kein Rebell";
-		description = "Du bist kein Rebell. Die Rebellenlizenz erhälst du in der Rebellen Stad.";
+		subtitle = "Nie jesteś rebeliantem";
+		description = "Nie jesteś rebeliantem.";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
@@ -553,8 +553,8 @@ class Bugusing
 	class DubistRebelle
 	{
 		title = "misja nie powiodła się";
-		subtitle = "Du bist ein Rebelle";
-		description = "Benutze die OPFOR Rollen um ein Rebelle zu sein.";
+		subtitle = "Jesteś Rebeliantem";
+		description = "Zmień stronę.";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
@@ -575,7 +575,7 @@ class CfgNotifications
 {
 	class MedicalRequestEmerg
 	{
-		title = "Notruf";
+		title = "Połączenie alarmowe";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
 		description = "%1";
 		duration = 5;
@@ -584,7 +584,7 @@ class CfgNotifications
 
 	class DeliveryAssigned
 	{
-		title = "Job angenommen";
+		title = "Zaakceptowana praca";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
 		description = "%1";
 		duration = 10;
@@ -593,7 +593,7 @@ class CfgNotifications
 
 	class DeliveryFailed
 	{
-		title = "Job gescheitert!";
+		title = "Praca zakończona!";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskiconfailed_ca.paa";
 		description = "%1";
 		duration = 7;
@@ -602,7 +602,7 @@ class CfgNotifications
 
 	class DeliverySucceeded
 	{
-		title = "Job beendet!";
+		title = "Przesyłka dostarczona!";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcondone_ca.paa";
 		description = "%1";
 		duration = 6;
@@ -611,7 +611,7 @@ class CfgNotifications
 
 	class TextMessage
 	{
-		title = "Neue Nachricht";
+		title = "Nowa wiadomość";
 		iconPicture = "icons\system\messagenew.paa";
 		description = "%1";
 		duration = 10;
@@ -620,7 +620,7 @@ class CfgNotifications
 
 	class PoliceDispatch
 	{
-		title = "Polizei Notruf";
+		title = "Wiadomość do policj";
 		iconPicture = "icons\system\messagepolice.paa";
 		description = "%1";
 		duration = 10;
@@ -629,7 +629,7 @@ class CfgNotifications
 
 	class AdminDispatch
 	{
-		title = "Admin Nachrichten Center";
+		title = "Wiadomość do admina";
 		iconPicture = "icons\system\messageadmin.paa";
 		description = "%1";
 		duration = 10;
@@ -638,7 +638,7 @@ class CfgNotifications
 
 	class AdminMessage
 	{
-		title = "Admin Nachricht";
+		title = "Wiadomość do admina";
 		iconPicture = "icons\system\messageadmin.paa";
 		description = "%1";
 		duration = 10;
@@ -647,7 +647,7 @@ class CfgNotifications
 	
 	class PoliceNews
 	{
-		title = "Polizei Einsatz Zentrale";
+		title = "Policja Centrum Operacyjne";
 		iconPicture = "icons\system\polizei.paa";
 		description = "%1";
 		duration = 10;
@@ -656,7 +656,7 @@ class CfgNotifications
 	
 	class PoliceEinsatz
 	{
-		title = "Polizei Einsatz";
+		title = "Operacja Policyjna";
 		iconPicture = "icons\system\polizei.paa";
 		description = "%1";
 		duration = 10;
@@ -665,7 +665,7 @@ class CfgNotifications
 	
 	class PoliceEinsatzbeendet
 	{
-		title = "Polizei Einsatz beendet";
+		title = "Wniosek do policji";
 		iconPicture = "icons\system\polizei.paa";
 		description = "%1";
 		duration = 10;
@@ -674,7 +674,7 @@ class CfgNotifications
 
 	class mtdNews
 	{
-		title = "MTD Leitstelle";
+		title = "MTD Centrum dowodzenia";
 		iconPicture = "icons\system\sani.paa";
 		description = "%1";
 		duration = 10;

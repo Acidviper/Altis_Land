@@ -56,7 +56,7 @@ _fnc_water = {
 			{
 				sleep 60;
 				[] spawn life_fnc_suechtig;
-				hint "Sie sollten bei einen Notarzt vorbei schauen! Sie sind stark Drogensuechtig!";
+				hint "Zalecana wizyta u lekarza!";
 				sleep 240;
 			};
 		};

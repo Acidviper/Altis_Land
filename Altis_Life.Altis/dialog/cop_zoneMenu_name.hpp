@@ -29,7 +29,7 @@
         class Title: Life_RscTitle {
             colorBackground[] = {0, 0, 0, 0};
             idc = -1;
-            text = "Sperrzone benennen";
+            text = "Strefa zamknięta";
             x = 0.3;
             y = 0.2;
             w = 0.6;
@@ -39,7 +39,7 @@
         class NameEdit: Life_RscEdit 
         {
             idc = 8011;            
-            text = "Name...";
+            text = "Nazwa...";
             sizeEx = 0.030;
             x = 0.40; y = 0.30;
             w = 0.25; h = 0.03;
@@ -58,7 +58,7 @@
 
         class Dropdown: Life_RscCombo {
             idc = 8012;
-            text = "Radius";
+            text = "Promień";
             x = 0.45875 * safezoneW + safezoneX;
             y = 0.35;
             w = 0.103125 * safezoneW;

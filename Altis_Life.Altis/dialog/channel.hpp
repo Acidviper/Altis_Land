@@ -80,7 +80,7 @@ h = 0.04;
 
 class SendButtonKey : Life_RscButtonMenu {
 idc = 9005;
-text = "Senden";
+text = "Wyslane";
 onButtonClick = "[] call life_fnc_sendChannel; closeDialog 0;";
 x = 0.261131;
 y = 0.491582;

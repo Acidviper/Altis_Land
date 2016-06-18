@@ -39,7 +39,7 @@ class AH_vsell
 		class RscButtonMenu_2400: Life_RscButtonMenu
 		{
 			idc = -1;
-			text = "SPRZEDAM"; //--- ToDo: Localize;
+			text = "SPRZEDAJ"; //--- ToDo: Localize;
 			onButtonClick = "[] spawn life_fnc_vAH_sell;";
 			x = 0.665 * safezoneW + safezoneX; //399 - 604
 			y = 0.731039 * safezoneH + safezoneY;

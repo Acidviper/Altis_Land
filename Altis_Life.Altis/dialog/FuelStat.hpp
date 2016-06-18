@@ -60,7 +60,7 @@ class Life_FuelStat
 		class FuelPrice : Life_RscTitle
 		{
 			idc = 20322;
-			text = "Price:";
+			text = "Cena:";
 			x = 0.15;
 			y = 0.8;
 			w = 0.8;

@@ -34,7 +34,7 @@ class jail_time
 		{
 			colorBackground[] = {0, 0, 0, 0};
 			idc = 2651;
-			text = "ins Gefängniss";
+			text = "Wiezienie";
 			x = 0.3;
 			y = 0.2;
 			w = 0.6;
@@ -43,7 +43,7 @@ class jail_time
 		class InfoMsg : Life_RscText
 		{
 			idc = 2601;	
-			text = "Zeit in Minuten:";
+			text = "Czas w minutach:";
 			x = 0.3;	
 			y = 0.163 + (11 / 250);	
 			w = 0.45; 		

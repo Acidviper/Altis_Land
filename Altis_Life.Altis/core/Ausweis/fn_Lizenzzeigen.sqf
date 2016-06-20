@@ -20,7 +20,7 @@ switch(playerSide)do{
 	default { _rank =  "Error";};
   };
   _marke = "marke_cop";
-  _org = "Polizei Altis";
+  _org = "Policja Altis";
  };
  case independent:{
   switch (call life_mediclevel) do{

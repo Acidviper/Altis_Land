@@ -70,7 +70,7 @@ _fnc_water = {
         sleep 1;
 		if ((player distance (getMarkerPos "Radioactive_Marker")) < 250) then {
 			if(uniform player == "U_C_Scientist" || (playerSide == west) || (playerSide == independent)) then {
-				 hint "!!! Strefa Radioaktywna !!! Strefa zamknięta Ale twój kombinezon ochronny chroni";
+				 hint "!!! Strefa Radioaktywna !!! Strefa zamknięta Kombinezon ochronny chroni";
 			} else {
 				 hint "!!! UWAGA RADIOAKTYWNA STREFA !!!";
 			};
@@ -93,7 +93,7 @@ _fnc_water = {
         if(life_inv_uranium_ore != 0) then {
             player forceWalk true;
             player setFatigue 1;
-            hint "Podczas transportu uranu, co jest bardzo trudne, więc trzeba poruszać się wolniej!";
+            hint "Podczas transportu uranu, poruszaj się wolniej!";
         } else {
             if(isForcedWalk player) then {
                 player forceWalk false;

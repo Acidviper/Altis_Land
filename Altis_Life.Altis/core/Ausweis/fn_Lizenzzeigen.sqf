@@ -38,7 +38,7 @@ switch(playerSide)do{
  };
  case civilian:{
   if(playerSide == civilian)then{
-   _rang = "Zivilist";
+   _rang = "Cywil";
    _marke = "marke_ziv";
    _org = "Republik Altis";
   }else{

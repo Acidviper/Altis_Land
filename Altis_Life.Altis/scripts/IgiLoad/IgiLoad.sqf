@@ -723,13 +723,13 @@ if (isnil "IL_Procedures") then
 			_text = Format["<img image='%1' size='2' align='left'/>", getText(configFile >> "cfgVehicles" >> typeOf _v >> "picture")];
 			_text = _text + Format ["<t color='#ff0000' size='1.2' shadow='1' shadowColor='#000000' align='center'>%1</t><br/>", getText(configFile >> "cfgVehicles" >> typeOf _v >> "displayName")];
 
-			_text = _text + "<t color='#00aafd' size='1.2' shadow='1' shadowColor='#000000' align='left'>Normalgewicht: </t>";
+			_text = _text + "<t color='#00aafd' size='1.2' shadow='1' shadowColor='#000000' align='left'>Normalna waga: </t>";
 			_text = _text + Format ["<t color='#ffff00' size='1.2' shadow='1' shadowColor='#000000' align='left'>%1 kg</t><br/>", _v_def_mass];
 
-			_text = _text + "<t color='#00aafd' size='1.2' shadow='1' shadowColor='#000000' align='left'>Frachtgewicht: </t>";
+			_text = _text + "<t color='#00aafd' size='1.2' shadow='1' shadowColor='#000000' align='left'>Masa ładunku: </t>";
 			_text = _text + Format ["<t color='#ffff00' size='1.2' shadow='1' shadowColor='#000000' align='left'>%1 kg</t><br/>", _cargo_mass];
 
-			_text = _text + "<t color='#00aafd' size='1.2' shadow='1' shadowColor='#000000' align='left'>Aktuelles Gewicht: </t>";
+			_text = _text + "<t color='#00aafd' size='1.2' shadow='1' shadowColor='#000000' align='left'>Obecna waga: </t>";
 			_text = _text + Format ["<t color='#ffff00' size='1.2' shadow='1' shadowColor='#000000' align='left'>%1 kg</t><br/>", _v_def_mass + _cargo_mass];
 		};
 		if (vehicle Player != _v) then
@@ -1563,7 +1563,7 @@ if (isnil "IL_Procedures") then
 			} forEach (_obj_lst);
 			if (_skip) then
 			{
-				[_v, "Fracht kann nicht gefunden werden, bitte versuch es erneut."] call IL_Vehicle_Chat;
+				[_v, "Prosimy spróbować ponownie."] call IL_Vehicle_Chat;
 
 				if (_counter < 0) then
 				{
@@ -1666,7 +1666,7 @@ if (isnil "IL_Procedures") then
 		_player allowDamage false;
 		sleep 0.2;
 		unassignVehicle _player;
-		_player action ["Abspringen",vehicle _player];
+		_player action ["Skok",vehicle _player];
 		sleep 0.5;
 
 		if !(_para) then
@@ -1753,7 +1753,7 @@ if (_obj_main_type in IL_Supported_Vehicles_MOHAWK) then
 	[_obj_main] call IL_Init_Veh;
 
 	_obj_main addAction [
-	"<img image='icons\IgiLoad\load.paa' /><t color=""#007f0e"">  Fracht aufladen</t>",
+	"<img image='icons\IgiLoad\load.paa' /><t color=""#007f0e"">  Ładownia</t>",
 	{
 		[_this select 0, IL_Supported_Cargo_NonVeh_Mohawk] call IL_Do_Load;
 	},[],IL_Action_LU_Priority,true,true,"",
@@ -1761,7 +1761,7 @@ if (_obj_main_type in IL_Supported_Vehicles_MOHAWK) then
 	];
 
 	_obj_main addAction [
-	"<img image='icons\IgiLoad\load.paa' /><t color=""#007f0e"">  Fahrzeug aufladen</t>",
+	"<img image='icons\IgiLoad\load.paa' /><t color=""#007f0e"">  Ładunek</t>",
 	{
 		[_this select 0, IL_Supported_Cargo_Veh_Mohawk] call IL_Do_Load;
 	},[],IL_Action_LU_Priority,true,true,"",
@@ -1769,7 +1769,7 @@ if (_obj_main_type in IL_Supported_Vehicles_MOHAWK) then
 	];
 
 	_obj_main addAction [
-	"<t color=""#007f0e"">Einsteigen</t>",
+	"<t color=""#007f0e"">Wchodzi</t>",
 	{
 		(_this select 1) moveInCargo (_this select 0);
 	},[],IL_Action_LU_Priority,false,true,"",
@@ -1777,7 +1777,7 @@ if (_obj_main_type in IL_Supported_Vehicles_MOHAWK) then
 	];
 
 	_obj_main addAction [
-	"<t color=""#ff0000"">Aussteigen</t>",
+	"<t color=""#ff0000"">Wysiadać</t>",
 	{
 		[_this select 0, _this select 1, false] call IL_GetOut;
 	},[],IL_Action_LU_Priority,false,true,"",
@@ -1801,7 +1801,7 @@ if (_obj_main_type in IL_Supported_Vehicles_MOHAWK) then
 	];
 
 	_obj_main addAction [
-	"<img image='icons\IgiLoad\unload_para.paa' /><t color=""#b200ff"">  Fracht mit Fallschirm abwerfen</t>",
+	"<img image='icons\IgiLoad\unload_para.paa' /><t color=""#b200ff"">  Usuń ładunek</t>",
 	{
 		[_this select 0, true] call IL_Do_Unload;
 	},[],IL_Action_LU_Priority,false,true,"",
@@ -1809,7 +1809,7 @@ if (_obj_main_type in IL_Supported_Vehicles_MOHAWK) then
 	];
 
 	_obj_main addAction [
-	"<img image='icons\IgiLoad\unload_all_para.paa' /><t color=""#a50b00"">  Ganze Fracht mit Fallschirm abwerfen</t>",
+	"<img image='icons\IgiLoad\unload_all_para.paa' /><t color=""#a50b00"">  Usuń ładunek</t>",
 	{
 		while {((_this select 0) getVariable "box_num") != 0} do
 		{
@@ -1820,7 +1820,7 @@ if (_obj_main_type in IL_Supported_Vehicles_MOHAWK) then
 	];
 
 	_obj_main addAction [
-	"<t color=""#0000ff"">Frachtrampe öffnen</t>",
+	"<t color=""#0000ff"">Otwarcie Rampy</t>",
 	{
 		_this select 0 animatedoor ['CargoRamp_Open', 1];
 	},[],IL_Action_O_Priority,false,true,"",

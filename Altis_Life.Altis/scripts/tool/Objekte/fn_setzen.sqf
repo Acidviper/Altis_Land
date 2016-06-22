@@ -8,7 +8,7 @@ P.S. - Don't be a faggot like i know some of you all will be.
 */
 private["_display","_placeables","_className","_allowMoveDistance","_object","_attachPos","_originalPos","_playerOriginalPos"];
 disableSerialization;
-if (count life_bar_placey >= life_bar_limit) exitWith { hint "Du hast bereits zu viele Objekte platziert."; };
+if (count life_bar_placey >= life_bar_limit) exitWith { hint "Masz już za dużo."; };
 _display = findDisplay 20000;
 _placeables = _display displayCtrl 20001;
 _className = lbData[20001, lbCurSel (20001)];

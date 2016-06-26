@@ -1,6 +1,16 @@
+# Spakowana wersja dla army
 *.pbo
-Thumbs.db
+# Co tam sobie zaznaczyliście
 Altis_Life.Altis/core/cop/fn_ticketPaid.sqf
 Altis_Life.Altis/core/cop/fn_ticketPay.sqf
 Altis_Life.Altis/textures/armalife.png
-Altis_Life.Altis/textures/civi/fahrzeuge/reb/Thumbs.db
+# Rzeczy powiązane z windowsem
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
